@@ -1,0 +1,1124 @@
+body{
+    margin: 0;
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.simnav{
+    background-color: white;
+    height: 70px; 
+    
+}
+
+.navbtn{
+    background-color: #0d6efd;
+  
+    border-radius: 4px;
+    width: 86px;
+    height: 49px;
+    font-size: 16px;
+    float: right;
+    margin-right: 140px;
+    border: none;
+    margin-top: 10px;
+}
+
+.navbtn a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    max-width: 100%;
+    background: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg") no-repeat center;
+    z-index: -1;
+    background-size: cover;
+    position: relative;
+    height: 86vh;
+    filter: saturate(140%);
+
+   
+    
+    
+}
+
+.headingcontainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 50%;
+    z-index: 2;
+    height: auto;
+
+}
+
+.heading{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    
+
+}
+
+.searchb{
+
+    width: 65%;
+    height: 62px;
+    margin:15px 20px 5px 0px;
+    
+    border-radius: 10px;
+    
+
+}
+
+.btn2{
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 10px;
+    width: 103px;
+    height: 61px;
+    font-size: 20px;
+    opacity: 0.7;
+
+}
+
+::placeholder {
+    font-size: 20px;
+    padding-left: 20px;
+    
+    
+  }
+
+.container2{
+    width: 100%;
+    column-count: 3;
+    background-color: #f8f9fa;
+    
+}
+
+.iconbox{
+ width: 60%;
+ 
+ padding-top:130px ;
+ text-align: center;
+ margin-bottom: 120px;
+ 
+}
+
+.iconbox:first-child{
+  margin-left: 180px;
+}
+
+
+
+.iconbox:nth-child(2){
+    margin-left: 100px;
+}
+
+.bi-window{
+    font-size: 70px;
+    color: #0d6efd ;
+}
+
+.bi-layers{
+    font-size: 70px;
+    color: #0d6efd;
+}
+
+.bi-terminal{
+    font-size: 70px;
+    color: #0d6efd;
+}
+
+.iconbox h2{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+   
+}
+
+.iconbox p{
+    font-size: 19px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 1.5;
+    margin-top: -10px;
+}
+
+
+.imgtextcontainer{
+    
+    max-width: 100%;
+    column-count: 2;
+    display: block;
+    position: relative;
+    
+   
+   
+}
+
+.text{
+    width: 95%;
+    margin-left: -800px;
+    
+   
+    padding: 160px 30px 0px 110px;
+   
+    
+}
+
+.text2{
+    width: 95%;
+    padding: 160px 0px 0px 110px;
+
+}
+
+.text h1{
+    font-family: sans-serif;
+}
+
+.text p{
+  font-size: 21px;
+  margin-top: -12px;
+  line-height: 1.4;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: lighter;
+}
+
+.text2 h1{
+    font-family: sans-serif;
+}
+
+.text2 p{
+  font-size: 21px;
+  margin-top: -12px;
+  line-height: 1.4;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: lighter;
+}
+
+
+.imgside{
+    width: 100%;
+    
+    
+    
+    
+}
+
+.imgside img{
+   height: 470px;
+   width: 100%;
+   margin-left: 760px;
+   
+   
+    
+}
+
+
+
+.imgside2 img{
+    height: 470px;
+    width: 100%;
+   
+    
+     
+ }
+
+
+.userimage{
+    max-width: 100%;
+    column-count: 3;
+    background-color: #f8f9fa;
+    padding-bottom: 100px;
+    
+}
+
+
+
+.userimage h2 {
+    column-span: all;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 90px;
+    
+  }
+
+.userbox{
+   width: 55%;
+  
+   text-align: center;
+   margin-left: 100px;
+
+   
+   
+  
+}
+
+
+ .userbox:first-of-type {
+    margin-left: 200px; 
+}
+
+.userbox:last-child{
+    margin-left: -13px;
+}
+
+
+
+.userbox img{
+    border-radius: 50%;
+    width: 65%;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5);
+    
+    
+}
+
+.userbox h4{
+    margin-top:7px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.userbox p{
+    margin-top:-14px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.started{
+    max-width: 100%;
+    background: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg") no-repeat center;
+    z-index: -1;
+    background-size: cover;
+    position: relative;
+    height: 55vh;
+    filter: saturate(140%); 
+   
+    
+}
+
+.startcontainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 50%;
+    z-index: 2;
+    height: auto;
+    
+
+}
+
+.headingstart{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 20px;
+
+}
+
+.searchb1{
+
+    width: 65%;
+    height: 62px;
+    margin:15px 20px 5px 0px;
+    
+    border-radius: 10px;
+    
+
+}
+
+footer{
+    padding: 50px 0px 50px 0px;
+    background-color: #f8f9fa;
+}
+
+footer ul{
+   
+    list-style-type: none;
+   
+}
+
+footer ul li{
+    display: inline;
+    padding-left: 20px;
+    
+    
+}
+
+footer ul li::after {
+    content: '\00B7'; 
+    margin-left: 15px; 
+  }
+
+footer ul a{
+    color: blue;
+    
+}
+
+footer p{
+    color: gray;
+    padding-left: 57px;
+}
+
+@media screen and (max-width:1024px){
+
+    .headingcontainer{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 100%;
+        z-index: 2;
+        height: auto;
+        
+        
+    
+    }
+    
+    .heading{
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        
+    
+    }
+    
+    .searchb{
+    
+        width: 70%;
+        height: 65px;
+        margin:15px 60px 5px 20px;
+        
+        border-radius: 10px;
+        
+    
+    }
+    
+    .btn2{
+        background-color: #0d6efd;
+        color: white;
+        border-radius: 10px;
+        width: 103px;
+        height: 61px;
+        font-size: 20px;
+        opacity: 0.7;
+        margin-right: 30px;
+    
+    }
+    
+    ::placeholder {
+        font-size: 20px;
+        padding-left: 20px;
+        
+        
+    }
+
+    
+.container2{
+    width: 100%;
+    column-count: 1;
+    background-color: #f8f9fa;
+    
+    
+}
+
+.iconbox{
+ width: 40%;
+ 
+ 
+ text-align: center;
+ 
+ 
+}
+
+.iconbox:first-child{
+  margin-left: 230px;
+}
+
+.iconbox:last-child{
+    margin:70px 0px 0px 230px;
+    padding-top: 0px;
+}
+
+
+
+.iconbox:nth-child(2){
+    margin:-60px 0px 0px 230px;
+    padding-top: 0px;
+}
+
+.bi-window{
+    font-size: 70px;
+    color: #0d6efd ;
+}
+
+.bi-layers{
+    font-size: 70px;
+    color: #0d6efd;
+}
+
+.bi-terminal{
+    font-size: 70px;
+    color: #0d6efd;
+}
+
+.iconbox h2{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+   
+}
+
+.iconbox p{
+    font-size: 19px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 1.5;
+    margin-top: -10px;
+}
+
+
+.imgtextcontainer{
+    
+    max-width: 100%;
+    column-count: 1;
+    display: block;
+    position: relative;
+   
+    
+   
+   
+}
+
+.text{
+    width: 100%;
+    padding: 70px 100px 70px 110px;
+    margin-left: 0px;
+    
+   
+    
+    
+}
+
+.text2{
+
+    width: 100%;
+    padding: 70px 100px 70px 110px;
+    
+
+}
+
+.text h1{
+    font-family: sans-serif;
+}
+
+.text p{
+  font-size: 21px;
+  margin-top: -12px;
+  line-height: 1.4;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: lighter;
+}
+
+.text2 h1{
+    font-family: sans-serif;
+}
+
+.text2 p{
+  font-size: 21px;
+  margin-top: -12px;
+  line-height: 1.4;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: lighter;
+}
+
+.imgside{
+    width: 100%;
+    margin-left: -760px;
+   
+   
+}
+
+.imgside img{
+   height: 470px;
+   width: 100%;
+   position: relative;
+   top: 0;
+ 
+   
+    
+}
+.imgside2 img{
+    height: 470px;
+    width: 100%;
+   
+    
+     
+ }
+
+.userimage{
+    max-width: 100%;
+    column-count: 1;
+    background-color: #f8f9fa;
+    padding-bottom: 100px;
+    
+}
+
+
+
+.userimage h2 {
+    column-span: all;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 90px;
+    
+  }
+
+.userbox{
+   width: 36%;
+  
+   text-align: center;
+   margin-left: 100px;
+   padding-top: 30px;
+
+   
+   
+  
+}
+
+
+ .userbox:first-of-type {
+    margin-left: 250px; 
+}
+
+.userbox:nth-child(3){
+    margin-left: 250px;
+}
+
+.userbox:last-child{
+    margin-left: 250px;
+}
+
+
+
+.userbox img{
+    border-radius: 50%;
+    width: 75%;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5);
+    
+    
+}
+
+.userbox h4{
+    margin-top:7px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.userbox p{
+    margin-top:-14px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.started{
+    max-width: 100%;
+    background: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg") no-repeat center;
+    z-index: -1;
+    background-size: cover;
+    position: relative;
+    height: 55vh;
+    filter: saturate(140%); 
+   
+    
+}
+
+.startcontainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+    height: auto;
+    
+
+}
+
+.headingstart{
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 20px;
+
+}
+
+.searchb1{
+    
+    width: 70%;
+    height: 65px;
+    margin-left: 10px;
+    
+    border-radius: 10px;
+    
+
+}
+
+footer{
+    padding: 50px 0px 50px 0px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+footer ul{
+   
+    list-style-type: none;
+   
+}
+
+footer ul li{
+    display: inline;
+    padding-left: 20px;
+    
+    
+}
+
+footer ul li::after {
+    content: '\00B7'; 
+    margin-left: 15px; 
+  }
+
+footer ul a{
+    color: blue;
+    
+}
+
+footer p{
+    color: gray;
+    padding-left: 57px;
+}
+
+}
+
+@media screen and (max-width:760px) {
+
+
+.container{
+        max-width: 100%;
+        background: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg") no-repeat center;
+        z-index: -1;
+        background-size: cover;
+        position: relative;
+        height: 76vh;
+        filter: saturate(140%);
+    
+       
+        
+        
+}
+
+.headingcontainer{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 100%;
+        z-index: 2;
+        height: auto;
+        
+        
+    
+}
+    
+.heading{
+        font-size: 28px;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        
+    
+}
+    
+.searchb{
+    
+        width: 60%;
+        height: 65px;
+        margin:15px 10px 5px -9px;
+        
+        border-radius: 10px;
+        border-style: none;
+        
+    
+}
+    
+.btn2{
+        background-color: #0d6efd;
+        color: white;
+        border-radius: 10px;
+        width: 103px;
+        height: 61px;
+        font-size: 20px;
+        opacity: 0.7;
+        margin-right: -10px;
+        border-style: none;
+        
+    
+}
+    
+::placeholder {
+        font-size: 20px;
+        padding-left: 20px;
+        
+        
+}
+  
+.container2{
+        width: 100%;
+        column-count: 1;
+        background-color: #f8f9fa;
+       
+        padding:100px 50px 0px  50px;
+        
+}
+    
+.iconbox{
+     width: 40%;
+     
+     display: inline;
+     text-align: center;
+     
+     
+     
+}
+    
+    .iconbox:first-child{
+      margin-left: 88px;
+      
+    }
+    
+    .iconbox:last-child{
+        margin:70px 0px 0px 88px;
+        padding-top: 50px;
+    }
+    
+    
+    
+    .iconbox:nth-child(2){
+        margin:-60px 0px 0px 88px;
+        padding-top: 0px;
+    }
+    
+    .bi-window{
+        font-size: 55px;
+        color: #0d6efd ;
+       
+
+    }
+    
+    .bi-layers{
+        font-size: 55px;
+        color: #0d6efd;
+    }
+    
+    .bi-terminal{
+        font-size: 55px;
+        color: #0d6efd;
+    }
+    
+    .iconbox h2{
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+       
+    }
+    
+    .iconbox p{
+        font-size: 16px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: lighter;
+        line-height: 1.5;
+        margin-top: -10px;
+    }
+    
+    
+    .imgtextcontainer{
+        
+        max-width: 100%;
+        column-count: 1;
+        display: block;
+        position: relative;
+       
+        
+       
+       
+    }
+    
+    .text{
+        width: 100%;
+        padding: 50PX ;
+        display: inline-block;
+        float: none;
+        
+       
+          
+           
+          
+       
+        
+        
+    }
+    
+    .text h1{
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    
+    .text p{
+      font-size: 16px;
+      margin-top: -12px;
+      line-height: 1.4;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: lighter;
+    }
+
+    .text2{
+        width: 100%;
+        padding: 50PX ;
+        display: inline-block;
+        float: none;
+        
+       
+          
+           
+          
+       
+        
+        
+    }
+    
+    .text2 h1{
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    
+    .text2 p{
+      font-size: 16px;
+      margin-top: -12px;
+      line-height: 1.4;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: lighter;
+    }
+    
+    .imgside{
+        width: 100%;
+        
+       
+       
+       
+    }
+    
+    .imgside img{
+       height: 250px;
+       width: 100%;
+       
+       
+       
+     
+       
+        
+    }
+    .imgside2 img{
+        height: 250px;
+        width: 100%;
+     
+       
+        
+         
+     }
+    
+    .userimage{
+        max-width: 100%;
+        column-count: 1;
+        background-color: #f8f9fa;
+        padding-bottom: 100px;
+      
+        
+    }
+    
+    
+    
+    .userimage h2 {
+        column-span: all;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 90px;
+        
+      }
+    
+    .userbox{
+       width: 100%;
+       display: inline-block;
+       text-align: center;
+       margin-left: 0px;
+       padding-top: 20px;
+       
+    
+       
+       
+      
+    }
+    
+    
+     .userbox:first-of-type {
+        margin-left: 0px; 
+    }
+    
+    .userbox:nth-child(3){
+        margin-left: 0px;
+    }
+    
+    .userbox:last-child{
+        margin-left: 0px;
+    }
+    
+    
+    
+    .userbox img{
+        border-radius: 50%;
+        width: 50%;
+        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5);
+        
+        
+    }
+    
+    .userbox h4{
+        margin-top:7px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .userbox p{
+        margin-top:-14px;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 20px;
+    }
+    
+    .started{
+        max-width: 100%;
+        background: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg") no-repeat center;
+        z-index: -1;
+        background-size: cover;
+        position: relative;
+        height: 55vh;
+        filter: saturate(140%); 
+       
+        
+    }
+    
+    .startcontainer{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 100%;
+        z-index: 2;
+        height: auto;
+        
+    
+    }
+    
+    .headingstart{
+        font-size: 25px;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        margin-top: 20px;
+    
+    }
+    
+    .searchb1{
+    
+        width: 60%;
+        height: 65px;
+        margin:15px 10px 5px -10px;
+        
+        border-radius: 10px;
+        border-style: none;
+        
+    
+}
+    
+   .btn2{
+        background-color: #0d6efd;
+        color: white;
+        border-radius: 10px;
+        width: 103px;
+        height: 61px;
+        font-size: 20px;
+        opacity: 0.7;
+        margin-right: -10px;
+        border-style: none;
+        
+    
+    } 
+    
+    
+    footer{
+        padding: 50px 0px 50px 0px;
+        background-color: #f8f9fa;
+        text-align: center;
+    }
+    
+    footer ul{
+       
+        list-style-type: none;
+        margin-left: -10px;
+       
+    }
+    
+    footer ul li{
+        display: inline;
+        padding-left: 10px;
+        
+        
+    }
+    
+    footer ul li::after {
+        content: '\00B7'; 
+        margin-left:5px; 
+      }
+    
+    footer ul a{
+        color: blue;
+        
+    }
+    
+    footer p{
+        color: gray;
+        padding-left: 47px;
+    }
+    
+}

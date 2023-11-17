@@ -23,16 +23,20 @@ body{
 
     
     
-    
+    .spannav{
+        float: right;
+        width: max-content;
+        padding-right: 170px;
+    }
     
     span{
         display: inline-block;
         padding-top: 20px;
         
-        float:right;
+        
     }
     span a{
-        
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-decoration: none;
         color: white;
         padding: 0px 0px 0px 20px;
@@ -76,7 +80,7 @@ body{
        
        width: 75%;
      
-       padding-top: 20px;
+       padding-top: 28px;
       
     }
    
@@ -130,6 +134,7 @@ body{
         background-color: #6c757d;
         height: 100px;
         border-radius: 5px;
+        margin-top: 48px;
         
     }
     
@@ -277,8 +282,9 @@ body{
         background-color: black;
         color: white;
         width: 100%;
-        display: inline-block;
+        display: block;
         padding: 20px;
+        
         
        }
 
@@ -289,7 +295,8 @@ body{
        }
 
        .navdisplay:hover nav{
-        display: block;
+        display: inline;
+        position: absolute;
        }
 
        .imgcolumn{
@@ -392,21 +399,22 @@ body{
             background-color: black;
             color: white;
             width: 100%;
-            display: inline-block;
+            display: block;
             padding: 20px;
             
            }
     
            .nav{
             display: none;
-            position: absolute;
-            min-width: 200px;
+            
+            
            }
     
            
     
           .navdisplay:hover .nav{
-            display: block;
+            display: inline-block;
+            position: absolute;
             
     
           }
