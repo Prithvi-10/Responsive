@@ -1,0 +1,522 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+   
+}
+
+.navbar1{
+    background-color: black;
+    overflow: hidden;
+   
+}
+
+.navtext{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: max-content;
+    padding-left: 150px;
+    font-size: 22px;
+    margin-top: 15px;
+}
+.navclass{
+    width: max-content;
+   float: right;
+ margin-top: -20px;
+ padding:0px 150px 20px 0px;
+  
+    
+}
+
+
+
+span a{
+    text-decoration: none;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 15px;
+}
+
+span a:active{
+    color: white;
+}
+
+
+/* MAIN BODY */
+
+.heading-container{
+    width: 100%;
+    height: 63vh;
+    background-color: black;
+    position: relative;
+    
+    
+}
+
+.heading-text-container{
+   
+    width: 50%;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color: white;
+   
+}
+
+.heading-text-container h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     
+    font-size: 52px;
+    line-height: 1.2;
+}
+
+.heading-text-container h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    width: 85%;
+    margin:auto;
+    margin-top: -25px;
+    color: grey;
+}
+
+.heading-button-container{
+    
+    width: max-content;
+    text-align: center;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color: white;
+}
+
+.button1{
+    background-color: #0d6efd;
+    width: 150px;
+    height: 50px;
+    border-radius: 7px;
+    font-size: 18px;
+    border-style: none;
+    margin-right: 30px;
+}
+
+.button1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.button2{
+    background-color: transparent;
+    width: 150px;
+    height: 50px;
+    border-radius: 7px;
+    font-size: 18px;
+    border: 1px solid white;
+}
+
+.button2 a{
+    text-decoration: none;
+    color: white;
+}
+
+/*CARD*/
+
+.card-container{
+    width: 100%;
+    
+}
+
+.card-container-2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: auto;
+    width: 80%;
+    column-count: 3;
+    text-align: left;
+   
+}
+
+.icon-button{
+    background-color: #0d6efd;
+    border-radius: 5px;
+    border-style: none;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+  
+}
+
+
+
+.bi-collection{
+    font-size: 35px;
+    
+    color: white;
+}
+
+.bi-building{
+    font-size: 35px;
+    
+    color: white;
+}
+
+.bi-toggles2{
+    font-size: 35px;
+    
+    color: white;
+}
+
+.icon-class h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 13px;
+}
+
+.icon-class p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: -13px;
+}
+
+.icon-class a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #0d6efd;
+}
+
+/*PRICE CONTAINER*/
+
+
+.price-card-container{
+    background-color:#f8f9fa ;
+    width: 100%;
+    border: 1px solid gainsboro;
+}
+
+.price-card-container-2{
+     
+     margin: auto;
+     column-count: 3;
+     padding: 65px 0px 100px 0px;
+     column-gap: 50px;
+     width: 80%;
+     
+     
+     
+}
+
+.price-card-container-2 h1{
+    column-span: all;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.price-card-container-2 h3{
+    column-span: all;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    font-size: 21px;
+    margin: -15px 0px 50px 0px;
+    
+}
+
+.price-box{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: left;
+    height: 512px;
+    padding: 30px 40px 0px 40px;
+}
+
+.price-box h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+.price-box h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.bi-star-fill{
+    color: orange;
+    font-size: 14px;
+}
+
+
+
+.span-available{
+    list-style-type: none;
+    
+}
+
+.span-unavailable{
+    list-style-type:none;
+    color: gray;
+    
+}
+
+.bi-check{
+    color: #0d6efd;
+}
+.bi-x{
+    color: gray;
+}
+
+.span-available li{
+    
+    line-height: 2;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.span-unavailable li{
+    line-height: 2;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#highlight-item{
+    font-weight: bolder;
+}
+
+#price-opacity{
+    color: gray;
+}
+
+#money{
+    font-size: 60px;
+    margin-top: -20px;
+    display: inline-block;
+}
+
+#month{
+    display: inline-block;
+    color: gray;
+    font-size: 17px;
+}
+
+.price-button{
+    width: 95%;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #0d6efd;
+    background-color: transparent;
+    color: #0d6efd;
+    font-size: 16px;
+}
+
+.price-button2{
+
+    width: 95%;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #0d6efd;
+    color: white;
+    background-color: #0d6efd;
+    font-size: 16px;
+
+}
+
+
+/*CUSTOMER REVIEWS*/
+
+.customer-review-container{
+    
+    width: 100%;
+    
+}
+
+.customer-review-container-2{
+     
+     margin: auto;
+    
+     padding: 65px 0px 60px 0px;
+    
+     width: 50%;
+    
+     
+     
+     
+}
+
+.customer-review-container-2 h1{
+    column-span: all;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.customer-review-container-2 h3{
+    column-span: all;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    font-size: 21px;
+    margin: -15px 0px 50px 0px;
+    
+}
+
+.review-box{
+    margin: auto;
+    width: 80%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 150px;
+    margin-bottom: 25px;
+}
+
+.chat-icon{
+  margin: 35px 0px 0px 30px;
+  width: fit-content;
+  
+}
+
+
+.customer-text{
+    width: 80%;
+   
+    margin: -65px 0px 0px 95px;
+ 
+}
+
+.customer-text p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: light;
+    font-size: 16px;
+}
+
+#client{
+  margin-top: -8px;
+  font-size: 14px;
+  color: gray;
+}
+
+.bi-chat-right-quote-fill{
+    background-color: transparent;
+    color: #0d6efd;
+    font-size: 40px;
+    
+}
+
+/* GET IN TOUCH */
+
+.Contact-container{
+    background-color:#f8f9fa ;
+    width: 100%;
+    
+}
+
+.Contact-container-2{
+     
+     margin: auto;
+    
+     padding: 65px 0px 60px 0px;
+    
+     width: 50%;
+    
+     
+     
+     
+     
+}
+
+.Contact-container-2 h1{
+    column-span: all;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    
+    
+}
+
+.Contact-container-2 h3{
+    column-span: all;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    font-size: 21px;
+    margin: -15px 0px 50px 0px;
+    
+}
+
+.envelope-button{
+    background-color: #0d6efd;
+    border-radius: 5px;
+    border-style: none;
+    width: 65px;
+    height: 65px;
+   margin:30px 0px 0px 350px;
+  
+}
+
+.bi-envelope{
+    color: white;
+    font-size: 35px;
+}
+
+
+.input-fields{
+    width: 80%;
+    
+    border-radius: 5px;
+    height: 50px;
+    
+    border: 1px solid gray;
+    margin:0px 65px 15px 65px;
+}
+
+.textarea-field{
+    width: 80%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin:0px 65px 15px 65px;
+}
+
+input:focus::placeholder{
+
+    font-size: 12px;
+    color: gray;
+    top: 20px;
+    transform: translate(20px);
+   
+
+}
+
+.input-button{
+    width: 81%;
+    background-color: #0d6efd;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 22px;
+    opacity: 0.8;
+    margin:0px 65px 15px 65px;
+}
+
+/*FOOTER*/
+
+
+.foot{
+    width: 100%;
+    background-color: #212832;
+    height: 120px;
+    text-align: center;   
+}
+
+.foot h4{
+    color: white;
+    padding: 60px 0px 10px 0px;
+}
