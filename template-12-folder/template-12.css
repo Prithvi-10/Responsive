@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+   
+}
+
+.navbar1{
+    background-color: #212529;
+    overflow: hidden;
+   
+}
+
+.navtext{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: max-content;
+    padding-left: 110px;
+    font-size: 22px;
+    margin-top: 15px;
+}
+.navclass{
+    width: max-content;
+   float: right;
+ margin-top: -20px;
+ padding:0px 150px 20px 0px;
+  
+    
+}
+
+#home{
+    color: white;
+}
+
+span a{
+    text-decoration: none;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 15px;
+}
+
+span a:active{
+    color: white;
+}
+
+/* MAIN */
+
+.container{
+    max-width: 100%;
+    background:url('https://source.unsplash.com/wfh8dDlNFOk/1600x900') no-repeat center;
+    background-size: cover;
+    position: relative;
+    height: 61vh;
+}
+
+.image-container{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 50%;
+    
+}
+
+.image-container img{
+    border-radius: 50%;
+}
+
+.headingcontainer{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 50%;
+    z-index: 2;
+    height: auto;
+
+}
+
+.heading{
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    
+
+}
+
+.headingcontainer p{
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -10px;
+}
+
+/* SECOND DIV */
+
+.container-2{
+    max-width: 100%;
+}
+
+.container-2-sub{
+    width: 41%;
+    text-align: left;
+    margin: 95px auto ;
+}
+
+.container-2-sub h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.container-2-sub h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+.container-2-sub p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* THIRD DIV */
+
+.container-3{
+    width: 100%;
+    background:url('https://source.unsplash.com/4ulffa6qoKA/1200x800') no-repeat center;
+    height: 58vh;
+    background-size: cover;
+}
+
+/* FOURTH DIV */
+
+.container-4{
+    max-width: 100%;
+}
+
+.container-4-sub{
+    width: 41%;
+    text-align: left;
+    margin: 90px auto ;
+}
+
+.container-4-sub h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.container-4-sub h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+.container-4-sub p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* FOOTER */
+
+.foot{
+    width: 100%;
+    background-color: #212529;
+    height: 120px;
+    text-align: center;   
+}
+
+.foot h4{
+    color: white;
+    padding: 60px 0px 10px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
