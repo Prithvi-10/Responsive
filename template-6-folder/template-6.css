@@ -1,0 +1,471 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+   
+}
+
+.navbar1{
+    background-color: #212529;
+    overflow: hidden;
+   
+}
+
+.navtext{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: max-content;
+    padding-left: 110px;
+    font-size: 21px;
+    margin-top: 15px;
+}
+.navclass{
+    width: max-content;
+   float: right;
+ margin-top: -20px;
+ padding:0px 120px 15px 0px;
+  
+    
+}
+
+#blog{
+    color: white;
+}
+
+span a{
+    text-decoration: none;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* MAIN */
+
+.container{
+    background-color: #f8f9fa;
+    width: 100%;
+    position: relative;
+    height: 280px;
+    border-bottom: 1px solid #ced4da;
+    
+}
+
+.container-sub{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 50%;
+    color: black;
+    
+    
+}
+
+.container-sub h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-sub h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    margin-top: -20px;
+    font-size: 20px;
+}
+
+/* CONTAINER 2 */
+
+.container-2{
+    width: 100%;
+    height: 600px;
+
+}
+
+
+
+.image-card{
+    width: 56%;
+    border: 1px solid #ced4da;
+    float: left;
+    border-radius: 7px;
+    text-align: left;
+    margin: 20px 0px 0px 110px;
+}
+
+.image-card img{
+    width: 100%;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.image-card-bottom{
+    padding: 0px 25px 16px 15px;
+}
+
+.image-card-bottom p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    font-size: 14px;
+}
+
+.image-card-bottom h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-top: -15px;
+}
+
+.image-card-bottom h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: -13px;
+}
+
+.image-card-bottom button{
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 7px;
+    height: 40px;
+    width: 122px;
+    font-size: 15px;
+    text-align: center;
+    border-style: none;
+}
+
+
+
+.image-card-bottom button:hover{
+    background-color: #0a58ca;
+}
+
+/* SEARCH CARD */
+
+.search-card{
+    float: left;
+    width: 27%;
+    margin:22px 110px 0px 30px;
+    border: 1px solid #ced4da;
+    padding: 0;
+    border-radius: 7px;
+}
+
+.search-card-top{
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ced4da;
+    height: 38px;
+}
+
+.search-card-top h3{
+    margin-top: 0;
+    padding:8px 0px 0px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 350;
+    font-size: 17px;
+}
+
+.search-card-bottom{
+    height: 58px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.search-bar{
+    width: 370px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    position: relative;
+}
+
+.search-bar:focus {
+    box-shadow: -5px -5px 3px -2px lightskyblue, 
+                -5px -5px 3px -2px lightskyblue, 
+                5px 5px 5px -2px lightskyblue,
+                -5px 5px 5px -2px lightskyblue;
+}
+
+.search-btn{
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 0px 7px 7px 0px;
+    right: 8.7%;
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    border-style: none;
+}
+
+.search-btn:hover{
+    background-color: #0a58ca;
+}
+
+.search-bar::placeholder{
+    font-size: 16px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+/*CATEGORIES CARD*/
+
+.categories-card{
+    float: left;
+    width: 27%;
+    margin:22px 110px 0px 30px;
+    border: 1px solid #ced4da;
+    padding: 0;
+    border-radius: 7px;
+    height: 150px;
+}
+
+.categories-card-top{
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ced4da;
+    height: 38px;
+}
+
+.categories-card-top h3{
+    margin-top: 0;
+    padding:8px 0px 0px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 350;
+    font-size: 17px;
+}
+
+.categories-card-bottom{
+    
+    text-align: left;
+    
+    
+   
+
+}
+
+.categories-column-1{
+    float: left;
+    padding:16px 0px 0px 16px;
+}
+
+.categories-column-2{
+    float: left;
+    padding: 16px 0px 0px 100px;
+}
+
+.categories-column-1 a{
+    color: #0d6efd;
+    font-size: 16px;  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    
+}
+
+.categories-column-2 a{
+    color: #0d6efd;
+    font-size: 16px;  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+   
+}
+
+/*SIDE WIDGET */
+
+.widget-card{
+    float: left;
+    width: 27%;
+    margin:22px 110px 0px 30px;
+    border: 1px solid #ced4da;
+    padding: 0;
+    border-radius: 7px;
+    height: 140px;
+}
+
+.widget-card-top{
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ced4da;
+    height: 38px;
+}
+
+.widget-card-top h3{
+    margin-top: 0;
+    padding:8px 0px 0px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 350;
+    font-size: 17px;
+}
+
+.widget-card-bottom{
+    height: 58px;
+    text-align: center;
+   
+
+}
+
+.widget-card-bottom h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-weight: 400;
+    padding: 15px 20px 10px 20px;
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+
+/* CONTAINER 3 */
+
+.container-3{
+    width: 100%;
+    height: 870px;
+   
+
+}
+
+.container-3-sub{
+    column-count: 2;
+    width: 56%;
+    margin: -3px 0px 0px 110px;
+    border-bottom: 1px solid #ced4da;
+    height: 890px;
+}
+
+
+
+.small-image-card{
+    width: 98%;
+    border: 1px solid #ced4da;
+    float: left;
+    border-radius: 7px;
+    text-align: left;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    
+   
+    
+}
+
+
+
+.small-image-card img{
+    width: 100%;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.small-image-card-bottom{
+    padding: 0px 25px 7px 15px;
+    
+}
+
+.small-image-card-bottom p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    font-size: 14px;
+}
+
+.small-image-card-bottom h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-top: -15px;
+}
+
+.small-image-card-bottom h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: -13px;
+}
+
+.small-image-card-bottom button{
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 7px;
+    height: 40px;
+    width: 122px;
+    font-size: 15px;
+    text-align: center;
+    border-style: none;
+}
+
+
+
+.small-image-card-bottom button:hover{
+    background-color: #0a58ca;
+}
+
+/* CONTAINER 4 */
+
+.container-4{
+    width: 100;
+    height: 40px;
+    
+
+}
+
+.container-4-sub{
+    width: 56%;
+    margin: 47px 0px 0px 380px ;
+    
+}
+
+.pagination {
+    display: inline-block;
+    
+  }
+  
+  .pagination a {
+    color: #0d6efd;
+    float: left;
+    padding: 8px 12px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    
+  }
+
+  .pagination a:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .pagination a:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  #newer{
+    color: gray;
+  }
+  
+  .pagination #newer:hover{
+    background-color: transparent;
+  }
+  .pagination a.active {
+    background-color:#0d6efd;
+    color: white;
+    border: 1px solid #4CAF50;
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color: gainsboro;
+}
+
+
+
+
+/* FOOTER */
+
+.foot{
+    width: 100%;
+    background-color: #212529;
+    height: 120px;
+    text-align: center;   
+}
+
+.foot h4{
+    color: white;
+    padding: 60px 0px 10px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
