@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+.navbar1{
+    background-color: #212529;
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  
+   
+}
+
+.navtext{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: max-content;
+    padding-left: 110px;
+    font-size: 21px;
+    margin-top: 15px;
+}
+.navclass{
+    width: max-content;
+   float: right;
+ margin-top: -20px;
+ padding:0px 120px 15px 0px;
+  
+    
+}
+
+span a:focus{
+    color: white;
+}
+
+span a{
+    text-decoration: none;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* MAIN */
+
+.container{
+    background-color: #0d6efd;
+    width: 100%;
+    position: relative;
+    height: 343px;
+    border-bottom: 1px solid #ced4da;
+    
+}
+
+.container-sub{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 50%;
+    color: white;
+    
+    
+}
+
+.container-sub h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-sub h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    margin-top: -20px;
+    font-size: 20px;
+}
+
+.btn1{
+    background-color: white;
+    
+    
+    height: 48px;
+    width: 160px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 0px;
+    border-style: none;
+    
+}
+
+.btn1:hover{
+    background-color: #f8f9fa;
+}
+
+.btn1 a{
+    text-decoration: none;
+    color: black;
+}
+
+/* CONTAINER_2 */
+
+.container-2{
+    width: 100;
+    height: 520px;
+   
+}
+
+.container-2-sub{
+    width: 55%;
+    margin: auto;
+    padding-top: 120px;
+}
+
+.container-2-sub h1{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.container-2-sub h4{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: -11px;
+}
+
+.container-2-sub ul{
+    font-size: 17px;
+    margin-top: -5px;
+}
+
+/* CONTAINER 3 */
+
+.container-3{
+    width: 100;
+    height: 420px;
+    background-color: #f8f9fa;
+   
+}
+
+.container-3-sub{
+    width: 55%;
+    margin: auto;
+    padding-top: 120px;
+}
+
+.container-3-sub h1{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.container-3-sub h4{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: -11px;
+}
+
+/* CONTAINER 4 */
+
+.container-4{
+    width: 100;
+    height: 420px;
+    
+   
+}
+
+.container-4-sub{
+    width: 55%;
+    margin: auto;
+    padding-top: 120px;
+}
+
+.container-4-sub h1{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.container-4-sub h4{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: -11px;
+}
+
+/*FOOTER*/
+
+
+.foot{
+    width: 100%;
+    background-color: #212529;
+    height: 120px;
+    text-align: center;   
+}
+
+.foot h4{
+    color: white;
+    padding: 60px 0px 10px 0px;
+    font-weight: 400;
+}

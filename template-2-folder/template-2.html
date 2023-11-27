@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="template-2.css">
+    <title>Template-2</title>
+</head>
+<body>
+
+    <header>
+
+        <!-- SIDEBAR -->
+
+      <div id="sidebar">
+        <div class="sidebar-nav">
+          <span class="sidebar-title">Start Bootstrap</span>
+        </div>
+        <div class="sidebar-content">
+            <span>Dashboard</span>
+            <span>Shortcuts</span>
+            <span>Overview</span>
+            <span>Events</span>
+            <span>Profile</span>
+            <span>Status</span>
+        </div>
+      </div>
+
+       <!-- NAVBAR -->
+
+      <div id="main">
+        <div class="main-nav">
+          <div class="main-nav-left">
+            <button onclick="moveSidebar()" class="toggle-button">Toggle Menu</button>
+          </div>
+          <div class="main-nav-right">
+            <div class="nav-contents">
+
+              <span> <a href="">Home</a></span>
+
+              <span><a href="">Link</a></span>
+
+              <div class="dropdown">
+                <button class="dropbutton"  onclick="dropdownClick()">Dropdown &dtrif;</button>
+                <div class="drop-content" id="drop-button-id">
+                    <a href="#">Action</a>
+                    
+                    <a href="#">Another action</a>
+                    <hr>
+                    <a href="#">Something else here</a>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="main-content">
+            
+            <h1>Simple Sidebar</h1>
+
+            <h4>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. 
+                When toggled using the button below, the menu will change.
+            </h4>
+
+            <p>Make sure to keep all page content within the <span>#page-content-wrapper</span> . The top navbar is optional, and just for demonstration. 
+                Just create an element with the <span>#sidebarToggle</span> ID which will toggle the menu when clicked.
+            </p>    
+        </div>
+      </div>
+    </header>
+    
+
+
+
+
+    <script>
+        
+        sidebar.style.left="0px"
+        function moveSidebar() {
+            const sidebar = document.getElementById("sidebar");
+            const mainContent = document.getElementById("main");
+           
+
+            if (sidebar.style.left === "0px") {
+            sidebar.style.left = "-16%";
+            mainContent.style.marginLeft = "0";
+            mainContent.style.width="100%"
+            } else {
+            sidebar.style.left = "0px";
+            mainContent.style.marginLeft = "16%";
+            mainContent.style.width="84%"
+            }
+        }
+
+
+        function dropdownClick(){
+            document.getElementById("drop-button-id").classList.toggle("show")
+        }
+
+        window.onclick = function(closeit) {
+            if (!closeit.target.matches('.dropbutton')) {
+            let checkdrop = document.getElementById("drop-button-id");
+                if (checkdrop.classList.contains('show')) {
+                checkdrop.classList.remove('show');
+                }
+            }
+        }
+    </script>
+  </body>
+</html>
+
