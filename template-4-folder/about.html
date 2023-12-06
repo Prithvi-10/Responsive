@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+
+         <!--NavBAr-->
+  <header>
+
+    <div class="navdisplay"><h1>&#9776;</h1></div>
+
+    
+    <nav class="nav">
+        
+        <div class="navtext">
+            <span>Start Bootstrap</span> 
+        </div>
+
+      <div class="spannav">
+        <span ><a href="template-4-home.html"  >Home</a></span>
+        <span><a href="about.html">About</a></span>
+        <span><a href="contact.html">Contact</a></span>
+        <span><a href="pricing.html">Pricing</a></span>
+        <span><a href="faq.html">FAQ</a></span>
+
+        <div class="dropdown">
+            <button class="dropbutton"  onclick="dropdownClick()">Blog &dtrif;</button>
+            <div class="drop-content" id="drop-button-id">
+                <a href="blog-home.html">Blog Home</a>
+                
+                <a href="blog-post.html">Blog Post</a>
+              
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbutton2"  onclick="dropdownClick2()">Portfolio &dtrif;</button>
+            <div class="drop-content" id="drop-button-id2">
+                <a href="portfolio-overview.html">Portfolio Overview</a>
+                
+                <a href="portfolio-item.html">Portfolio Item</a>
+                
+            </div>
+        </div>
+        
+      </div>
+       
+        
+    
+   </nav>
+  </header>
+
+
+  <!-- MAIN -->
+
+  <main>
+    <div class="container-1">
+        <div class="container-1-sub">
+            <div class="text-container">
+                <h1>Our mission is to make building websites easier for everyone.</h1>
+                <h3>
+                    Start Bootstrap was built on the idea that quality, functional website templates and themes should be available to everyone.
+                     Use our open source, free products, or support us by purchasing one of our premium products or services.
+
+                </h3>
+                    <button class="btn1"><a href="">Read our story</a></button>
+            </div>
+           
+           
+        </div>
+
+    </div>
+ 
+
+    <!-- CONTAINER-2 -->
+
+    <div class="container-2">
+        <div class="container-2-sub">
+
+            <div class="imgcolumn">
+                <img src="https://dummyimage.com/600x400/343a40/6c757d" alt="600x400">
+            </div>
+
+            <div class="textcolumn">
+                <div class="h1style">
+                    <h1>Our founding</h1>
+                </div>
+                <div class="pstyle">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est, ut esse a labore aliquam beatae expedita.
+                     Blanditiis impedit numquam libero molestiae et fugit cupiditate, quibusdam expedita, maiores eaque quisquam.
+                </p>
+                </div>
+             
+            </div>
+    
+          
+        </div>
+     </div>
+
+    <!-- CONTAINER 3 -->
+
+    <div class="container-3">
+        <div class="container-3-sub">
+
+           
+
+            <div class="textcolumn">
+                <div class="h1style">
+                    <h1>Growth & beyond</h1>
+                </div>
+                <div class="pstyle">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est, ut esse a labore aliquam beatae expedita.
+                     Blanditiis impedit numquam libero molestiae et fugit cupiditate, quibusdam expedita, maiores eaque quisquam.
+                </p>
+                </div>
+             
+            </div>
+    
+            <div class="imgcolumn">
+                <img src="https://dummyimage.com/600x400/343a40/6c757d" alt="600x400">
+            </div>
+        </div>
+     </div>
+
+     <!-- USER IMAGE -->
+     <div class="userimage">
+
+        <h2>Our team</h2>
+        <h3>Dedicated to quality and your success</h3>
+        
+        <div class="userimage-2">
+
+            <div class="userbox">
+                <img src="https://dummyimage.com/150x150/ced4da/6c757d" alt=""> 
+
+                <h4>Ibbie Eckart</h4>
+                <p>Founder & CEO</p>
+            </div>
+
+            <div class="userbox">
+                <img src="https://dummyimage.com/150x150/ced4da/6c757d" alt=""> 
+
+                <h4>Arden Vasek </h4>
+                <p>CFO</p>
+            </div>
+
+            <div class="userbox">
+                <img src="https://dummyimage.com/150x150/ced4da/6c757d" alt=""> 
+
+                <h4>Toribio Nerthus</h4>
+                <p>Operations Manager</p>
+            </div>
+
+            <div class="userbox">
+                <img src="https://dummyimage.com/150x150/ced4da/6c757d" alt=""> 
+
+                <h4>Malvina Cilla</h4>
+                <p>CTO</p>
+            </div>
+
+        </div>
+
+
+    </div>
+  </main>
+
+
+  <footer>
+    <div class="foot">
+     <h4 >Copyright &copy; Your website 2023</h4> 
+     <span id="footspan">
+        <a href="">Privacy </a> &nbsp; ·
+        <a href="">Terms  </a> &nbsp;·
+        <a href="">Contact</a>
+    </span>
+    </div>
+
+   
+</footer>
+
+
+
+
+
+
+
+
+<script>
+      function dropdownClick(){
+        document.getElementById("drop-button-id").classList.toggle("show")
+    }
+
+    window.addEventListener ("click",function(closeit) {
+        if (!closeit.target.matches('.dropbutton')) {
+        let checkdrop = document.getElementById("drop-button-id");
+            if (checkdrop.classList.contains('show')) {
+            checkdrop.classList.remove('show');
+            }
+        }
+    });
+
+    function dropdownClick2(){
+        document.getElementById("drop-button-id2").classList.toggle("show")
+    }
+
+    window.addEventListener ("click",function(closeit2) {
+        if (!closeit2.target.matches('.dropbutton2')) {
+        let checkdrop = document.getElementById("drop-button-id2");
+            if (checkdrop.classList.contains('show')) {
+            checkdrop.classList.remove('show');
+            }
+        }
+    });
+</script>
+
+    
+</body>
+</html>

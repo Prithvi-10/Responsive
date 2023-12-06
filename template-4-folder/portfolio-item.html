@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Item</title>
+    <link rel="stylesheet" href="portfolio-item.css">
+</head>
+<body>
+
+    <header>
+
+        <div class="navdisplay"><h1>&#9776;</h1></div>
+    
+        
+        <nav class="nav">
+            
+            <div class="navtext">
+                <span>Start Bootstrap</span> 
+            </div>
+    
+          <div class="spannav">
+            <span ><a href="template-4-home.html"  >Home</a></span>
+            <span><a href="about.html">About</a></span>
+            <span><a href="contact.html">Contact</a></span>
+            <span><a href="pricing.html">Pricing</a></span>
+            <span><a href="faq.html">FAQ</a></span>
+    
+            <div class="dropdown">
+                <button class="dropbutton"  onclick="dropdownClick()">Blog &dtrif;</button>
+                <div class="drop-content" id="drop-button-id">
+                    <a href="blog-home.html">Blog Home</a>
+                    
+                    <a href="blog-post.html">Blog Post</a>
+                  
+                </div>
+            </div>
+    
+            <div class="dropdown">
+                <button class="dropbutton2"  onclick="dropdownClick2()">Portfolio &dtrif;</button>
+                <div class="drop-content" id="drop-button-id2">
+                    <a href="portfolio-overview.html">Portfolio Overview</a>
+                    
+                    <a href="portfolio-item.html">Portfolio Item</a>
+                    
+                </div>
+            </div>
+            
+          </div>
+           
+            
+        
+       </nav>
+      </header>
+    
+      <main>
+        <div class="container-1">
+            <div class="container-1-header">
+
+                <h1>Project Title</h1>
+
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab similique, ducimus ut alias sit accusamus illum,
+                     asperiores deserunt dolorum quaerat qui! Ab, quisquam explicabo magni dolores unde beatae quam a.</h3>
+
+            </div>
+              
+            <div class="container-1-image">
+                <img src="https://dummyimage.com/1300x700/343a40/6c757d" alt="">
+
+            </div>
+        </div>
+
+
+        <div class="container-2">
+            <div class="container-2-image">
+
+                <img src="https://dummyimage.com/600x400/343a40/6c757d" alt="">
+
+                <img src="https://dummyimage.com/600x400/343a40/6c757d" alt="">
+
+            </div>
+
+        </div>
+
+        <div class="container-3">
+            <div class="container-3-sub">
+
+                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam deserunt architecto enim eos accusantium fugit
+                     recusandae illo iste dignissimos possimus facere ducimus odit voluptatibus exercitationem,
+                      ex laudantium illum voluptatum corporis.
+                </h3>
+
+                <a>View Project &nbsp; &#129058;</a>
+
+            </div>
+
+        </div>
+
+      </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <footer>
+        <div class="foot">
+         <h4 >Copyright &copy; Your website 2023</h4> 
+         <span id="footspan">
+            <a href="">Privacy </a> &nbsp; ·
+            <a href="">Terms  </a> &nbsp;·
+            <a href="">Contact</a>
+        </span>
+        </div>
+
+       
+    </footer>
+
+
+
+
+
+
+
+
+    <script>
+          function dropdownClick(){
+            document.getElementById("drop-button-id").classList.toggle("show")
+        }
+
+        window.addEventListener ("click",function(closeit) {
+            if (!closeit.target.matches('.dropbutton')) {
+            let checkdrop = document.getElementById("drop-button-id");
+                if (checkdrop.classList.contains('show')) {
+                checkdrop.classList.remove('show');
+                }
+            }
+        });
+
+        function dropdownClick2(){
+            document.getElementById("drop-button-id2").classList.toggle("show")
+        }
+
+        window.addEventListener ("click",function(closeit2) {
+            if (!closeit2.target.matches('.dropbutton2')) {
+            let checkdrop = document.getElementById("drop-button-id2");
+                if (checkdrop.classList.contains('show')) {
+                checkdrop.classList.remove('show');
+                }
+            }
+        });
+    </script>
+</body>
+</html>
