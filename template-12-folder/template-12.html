@@ -16,13 +16,20 @@
            
             
          <div class="navclass">
-          <span ><a href="#" id="home" >Home</a></span>
-          <span><a href="#">About</a></span>
-          <span><a href="#">Contact</a></span>
+
+          <div class="nav-link">
+            <span ><a href="#" id="home" >Home</a></span>
+            <span><a href="#">About</a></span>
+            <span><a href="#">Contact</a></span>
+         </div>
           
          </div>
     
-           
+         <div class="menu-icon" onclick="toggleFunction()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
         </nav>
        </header>
 
@@ -80,5 +87,24 @@
             <h4 >Copyright &copy; Your website 2023</h4> 
         </div>
        </footer>
+
+
+
+       <script>
+         function toggleFunction(){
+            
+            const mobile_nav = document.querySelector(".nav-link");
+            if ( mobile_nav.style.display === "block") {
+              
+                mobile_nav.style.display="none";
+            }
+
+            else {
+                mobile_nav.style.display = "block";
+            }
+
+           }
+          
+       </script>
 </body>
 </html>

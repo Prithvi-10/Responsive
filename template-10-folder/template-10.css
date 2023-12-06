@@ -13,7 +13,7 @@ body{
         background-color: #212529;
         margin-top: 0;
        overflow: hidden;
-       height: 60px;
+       
         
         
     }
@@ -68,6 +68,26 @@ body{
     span a:not(:hover){
         color: grey;
     }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        border: 1px solid gray;
+        border-radius: 7px;
+        padding: 6px;
+        
+        
+    }
+    
+    .bar {
+        display: inline-block;
+        width: 3px;
+        height: 27px;
+        background-color: gray;
+        margin: 2px;
+    }
+    
+    .menu-icon{display: none;}
     
     /*Main*/
     
@@ -280,6 +300,9 @@ body{
         color: white;
         padding: 40px 0px 10px 0px;
     }
+
+
+  /* TABLET */
     
     @media screen and (max-width:1024px) {
      
@@ -290,30 +313,59 @@ body{
         margin-left: -60px;        
        }
        
-
-       .navdisplay{
+    .nav{
         position: relative;
-        background-color: black;
-        color: white;
-        width: 100%;
-        display: block;
-        padding: 20px;
-        
-        
-       }
+    }
+     .navtext{
 
-       .nav{
+        margin-left: 40px;
+        padding-bottom: 10px;
+     }
+    .nav-link{
+       
         display: none;
-        
-        
-       }
+        margin-left: 20px;
+        padding: 20px 0px;
+    }
 
-       .navdisplay:hover nav{
+    .menu-icon{
         display: inline;
+        float: right;
         position: absolute;
-       }
+        transform: rotate(270deg);
+        top: 5px;
+        right: 10px;
+    
+    }
 
-       .imgcolumn{
+    
+    .spannav{
+        float: none;
+        width: max-content;
+        
+    }
+    
+    span{
+        display: block;
+        padding-top: 20px;
+        
+        
+    }
+    span a{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        color: white;
+        padding: 0px 0px 0px 20px;
+        
+        
+       
+        
+        
+    }
+       
+     /* MAIN */
+
+    .imgcolumn{
         width: 100%;
        }
 
@@ -331,6 +383,8 @@ body{
         margin-top: 40px;
 
        }
+
+
        .box p{
        
         padding-top: 18px;
@@ -408,30 +462,24 @@ body{
     @media screen and (max-width:732px)  {
      
      
-        .navdisplay{
-            position: relative;
-            background-color: black;
+    
+        
+    
+        .navtext{
             color: white;
-            width: 100%;
-            display: block;
-            padding: 20px;
-            
-           }
+            float: none;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 40px;
+            padding-bottom: 15px;
+        }   
     
-           .nav{
-            display: none;
-            
-            
-           }
-    
+        
+        .nav-link{
            
-    
-          .navdisplay:hover .nav{
-            display: inline-block;
-            position: absolute;
-            
-    
-          }
+            display: none;
+            margin:-30px 0px 0px 20px;
+        }
 
        span {
         float: none;
@@ -544,10 +592,16 @@ body{
         .card-box2{
            max-width: 100%;
            margin-top: -25px;
+          
          
          
          
          
+        }
+
+        .card-box:last-child{
+            margin-top: -25px;
+            
         }
  
         .card-title h2{
@@ -590,3 +644,4 @@ body{
             padding: 40px 0px 10px 0px;
         }
      }
+

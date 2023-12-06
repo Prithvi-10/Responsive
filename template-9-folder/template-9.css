@@ -37,10 +37,27 @@ span a{
     padding-right: 15px;
 }
 
-span a:active{
+#home{
     color: white;
 }
 
+.menu-icon {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding: 6px;
+    
+  }
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: gray;
+    margin: 6px;}
+
+.menu-icon{display: none;}
 
 /* MAIN BODY */
 
@@ -555,4 +572,2416 @@ input:focus::placeholder{
 .foot h4{
     color: white;
     padding: 60px 0px 10px 0px;
+}
+
+/* TABLET */
+
+@media screen and (max-width:1024px) {
+
+    body{
+        margin: 0;
+       
+        box-sizing: border-box;
+       
+        
+       
+    }
+    
+    .navbar1{
+        background-color: black;
+        overflow: hidden;
+        position: relative;
+       
+    }
+    
+    .navtext{
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: max-content;
+        
+        font-size: 22px;
+        margin: 15px 0px 0px 50px;
+        padding-left: 0px;
+    }
+    .navclass{
+        width: 10px;
+       float: none;
+       
+       margin: 10px 0px 0px 50px;    
+      
+        
+    }
+    
+    
+    
+    span a{
+        text-decoration: none;
+        color: gray;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        line-height: 2;
+        font-size: 18px;
+    }
+    
+    span a:active{
+        color: white;
+    }
+
+    .nav-link{
+        display: none;
+    }
+
+    .menu-icon{
+        display: inline-block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    
+    
+    /* MAIN BODY */
+    
+    .heading-container{
+        width: 100%;
+        height: 63vh;
+        background-color: black;
+        position: relative;
+        
+        
+    }
+    
+    .heading-text-container{
+       
+        width: 90%;
+        text-align: center;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        color: white;
+      
+       
+    }
+    
+    .heading-text-container h1{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         
+        font-size: 40px;
+        line-height: 1.2;
+    }
+    
+    .heading-text-container h4{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 200;
+        font-size: 21px;
+        width: 97%;
+        margin:auto;
+        margin-top: -25px;
+        color: grey;
+    }
+    
+    .heading-button-container{
+        
+        width: max-content;
+        text-align: center;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        color: white;
+    }
+    
+    .button1{
+        background-color: #0d6efd;
+        width: 150px;
+        height: 50px;
+        border-radius: 7px;
+        font-size: 18px;
+        border-style: none;
+        margin-right: 30px;
+    }
+    
+    .button1:hover{
+        background-color: #0a58ca;
+    }
+    
+    .button1 a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .button2{
+        background-color: transparent;
+        width: 150px;
+        height: 50px;
+        border-radius: 7px;
+        font-size: 18px;
+        border: 1px solid white;
+    }
+    
+    .button2:hover{
+        background-color: white;
+        
+    }
+    
+    .button2 a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .button2 a:hover{
+        color: black;
+    }
+    
+    /*CARD*/
+    
+    .card-container{
+        width: 100%;
+        
+    }
+    
+    .card-container-2{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        margin: auto;
+        width: 85%;
+        column-count: 1;
+        text-align: left;
+      
+    }
+    
+    .icon-button{
+        background-color: #0d6efd;
+        border-radius: 5px;
+        border-style: none;
+        width: 65px;
+        height: 65px;
+        text-align: center;
+      
+    }
+    
+    
+    
+    .bi-collection{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .bi-building{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .bi-toggles2{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .icon-class{
+      margin-bottom: 60px;
+    }
+
+    .icon-class:last-child{
+        margin-bottom: 0px;
+    }
+
+    .icon-class h2{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 13px;
+    }
+    
+    .icon-class p{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: -13px;
+    }
+    
+    .icon-class a{
+        text-decoration: none;
+        font-size: 16px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #0d6efd;
+    }
+    
+    .icon-class a:hover{
+    
+        color: #0a58ca;
+        
+    }
+    
+    /*PRICE CONTAINER*/
+    
+    
+    .price-card-container{
+        background-color:#f8f9fa ;
+        width: 100%;
+        border: 1px solid gainsboro;
+    }
+    
+    .price-card-container-2{
+         
+         margin: auto;
+         column-count: 1;
+         padding: 65px 0px 100px 0px;
+         
+         width: 85%;
+         
+         
+         
+    }
+    
+    .price-card-container-2 h1{
+        column-span: all;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    
+    .price-card-container-2 h3{
+        column-span: all;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 200;
+        font-size: 21px;
+        margin: -15px 0px 50px 0px;
+        
+    }
+    
+    .price-box{
+        background-color: white;
+        border: 1px solid gray;
+        border-radius: 5px;
+        text-align: left;
+        height: 512px;
+        padding: 30px 40px 0px 40px;
+        margin-bottom: 50px;
+    }
+
+    .price-box:last-child{
+        margin-bottom: 0px;
+    }
+    
+    .price-box h4{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 5px;
+    }
+    
+    .price-box h5{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+    
+    .bi-star-fill{
+        color: orange;
+        font-size: 14px;
+    }
+    
+    
+    
+    .span-available{
+        list-style-type: none;
+        
+    }
+    
+    .span-unavailable{
+        list-style-type:none;
+        color: gray;
+        
+    }
+    
+    .bi-check{
+        color: #0d6efd;
+    }
+    .bi-x{
+        color: gray;
+    }
+    
+    .span-available li{
+        
+        line-height: 2;
+        font-size: 17px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .span-unavailable li{
+        line-height: 2;
+        font-size: 17px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    #highlight-item{
+        font-weight: bolder;
+    }
+    
+    #price-opacity{
+        color: gray;
+        font-size: 14px;
+    }
+    
+    #money{
+        font-size: 50px;
+        margin-top: -20px;
+        display: inline-block;
+    }
+    
+    #month{
+        display: inline-block;
+        color: gray;
+        font-size: 17px;
+    }
+    
+    .price-button{
+        width: 95%;
+        margin-top: 20px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #0d6efd;
+        background-color: transparent;
+        color: #0d6efd;
+        font-size: 16px;
+    }
+    
+    .price-button:hover{
+        background-color: #0d6efd;
+        color: white;
+    }
+    
+    .price-button2{
+    
+        width: 95%;
+        margin-top: 20px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #0d6efd;
+        color: white;
+        background-color: #0d6efd;
+        font-size: 16px;
+    
+    }
+    
+    .price-button2:hover{
+        background-color: #0a58ca;
+    }
+    
+    
+    /*CUSTOMER REVIEWS*/
+    
+    .customer-review-container{
+        
+        width: 100%;
+        
+    }
+    
+    .customer-review-container-2{
+         
+         margin: auto;
+        
+         padding: 65px 0px 60px 0px;
+        
+         width:85%;
+        
+         
+         
+         
+    }
+    
+    .customer-review-container-2 h1{
+        column-span: all;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    
+    .customer-review-container-2 h3{
+        column-span: all;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 200;
+        font-size: 21px;
+        margin: -15px 0px 50px 0px;
+        
+    }
+    
+    .review-box{
+        margin: 0px auto 25px auto;
+        width: 100%;
+        border: 1px solid grey;
+        border-radius: 5px;
+        height: 150px;
+        
+    }
+    
+    .chat-icon{
+      margin: 35px 0px 0px 30px;
+      width: fit-content;
+      
+    }
+    
+    
+    .customer-text{
+        width: 80%;
+       
+        margin: -65px 0px 0px 95px;
+     
+    }
+    
+    .customer-text p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: light;
+        font-size: 16px;
+    }
+    
+    #client{
+      margin-top: -8px;
+      font-size: 14px;
+      color: gray;
+    }
+    
+    .bi-chat-right-quote-fill{
+        background-color: transparent;
+        color: #0d6efd;
+        font-size: 40px;
+        
+    }
+    
+    /* GET IN TOUCH */
+    
+    .Contact-container{
+        background-color:#f8f9fa ;
+        width: 100%;
+        
+    }
+    
+    .Contact-container-2{
+         
+         margin: auto;
+        
+         padding: 65px 0px 60px 0px;
+        
+         width: 85%;
+        
+         
+         
+         
+         
+    }
+    
+    .Contact-container-2 h1{
+        column-span: all;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 15px;
+        
+        
+    }
+    
+    .Contact-container-2 h3{
+        column-span: all;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 200;
+        font-size: 21px;
+        margin: -15px 0px 50px 0px;
+        
+    }
+    
+    .envelope-div{
+      width: max-content;
+      margin: auto;
+      
+    
+    }
+    
+    .envelope-button{
+        background-color: #0d6efd;
+        border-radius: 5px;
+        border-style: none;
+        width: 65px;
+        height: 65px;
+       
+      
+      
+    }
+    
+    .bi-envelope{
+        color: white;
+        font-size: 35px;
+    }
+    
+    
+    .input-fields{
+        width: 99%;
+        
+        border-radius: 5px;
+        height: 50px;
+        
+        border: 1px solid gray;
+        margin:0px 0px 15px 0px;
+    }
+    
+    .textarea-field{
+        width: 99%;
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin:0px 0px 15px 0px;
+    }
+    
+    input:focus::placeholder{
+    
+        font-size: 12px;
+        color: gray;
+        top: 20px;
+        transform: translate(20px);
+       
+    
+    }
+    
+    .input-button{
+        width: 99%;
+        background-color: #0d6efd;
+        color: white;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 20px;
+        opacity: 0.6;
+        margin:0px 0px 15px 0px;
+    }
+    
+    /*FOOTER*/
+    
+    
+    .foot{
+        width: 100%;
+        background-color: #212832;
+        height: 120px;
+        text-align: center;   
+    }
+    
+    .foot h4{
+        color: white;
+        padding: 60px 0px 10px 0px;
+    }
+    
+}
+
+/* PHONE L */
+
+
+@media screen and (max-width:732px) {
+
+    body{
+        margin: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        
+       
+    }
+    
+     
+    .navbar1{
+        background-color: black;
+        overflow: hidden;
+        position: relative;
+       
+    }
+    
+    .navtext{
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: max-content;
+        
+        font-size: 22px;
+        margin: 15px 0px 0px 50px;
+        padding-left: 0px;
+    }
+    .navclass{
+        width: 10px;
+       float: none;
+       
+       margin: 10px 0px 0px 50px;    
+      
+        
+    }
+    
+    
+    
+    
+    
+    span a{
+        text-decoration: none;
+        color: gray;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-right: 15px;
+    }
+    
+    span a:active{
+        color: white;
+    }
+
+    
+    
+    
+    /* MAIN BODY */
+    
+    .heading-container{
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        position: relative;
+        
+        
+    }
+    
+    .heading-text-container{
+       
+        width: 65%;
+        text-align: center;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        color: white;
+      
+      
+       
+    }
+    
+    .heading-text-container h1{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         padding: 0px 20px 0px 20px;
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    
+    .heading-text-container h4{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        width: 97%;
+        margin:auto;
+        margin-top: -10px;
+        color: grey;
+    }
+    
+    .heading-button-container{
+        
+        width: 50%;
+        
+        top: 70%;
+        left: 43%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        color: white;
+        
+    }
+    
+    .button1{
+        background-color: #0d6efd;
+        width: 270px;
+        height: 50px;
+        border-radius: 7px;
+        font-size: 18px;
+        border-style: none;
+        margin: 10px 0px 18px 0px;
+        
+    }
+    
+    .button1:hover{
+        background-color: #0a58ca;
+    }
+    
+    .button1 a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .button2{
+        background-color: transparent;
+        width: 270px;
+        height: 50px;
+        border-radius: 7px;
+        font-size: 18px;
+        border: 1px solid white;
+    }
+    
+    .button2:hover{
+        background-color: white;
+        
+    }
+    
+    .button2 a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .button2 a:hover{
+        color: black;
+    }
+    
+    /*CARD*/
+    
+    .card-container{
+        width: 100%;
+      
+    }
+    
+    .card-container-2{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        margin: auto;
+        width: 85%;
+        column-count: 1;
+        text-align: left;
+       
+    }
+    
+    .icon-button{
+        background-color: #0d6efd;
+        border-radius: 5px;
+        border-style: none;
+        width: 65px;
+        height: 65px;
+        text-align: center;
+      
+    }
+    
+    
+    
+    .bi-collection{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .bi-building{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .bi-toggles2{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .icon-class{
+      margin-bottom: 60px;
+      
+      width: 73%;
+    }
+
+    .icon-class:last-child{
+        margin-bottom: 0px;
+    }
+
+    .icon-class h2{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 13px;
+    }
+    
+    .icon-class p{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: -13px;
+    }
+    
+    .icon-class a{
+        text-decoration: none;
+        font-size: 16px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #0d6efd;
+    }
+    
+    .icon-class a:hover{
+    
+        color: #0a58ca;
+        
+    }
+    
+    /*PRICE CONTAINER*/
+    
+    
+    .price-card-container{
+        background-color:#f8f9fa ;
+        width: 100%;
+        border: 1px solid gainsboro;
+    }
+    
+    .price-card-container-2{
+         
+         margin: auto;
+         column-count: 1;
+         padding: 65px 0px 100px 0px;
+         
+         width: 60%;
+         
+         
+         
+         
+    }
+    
+    .price-card-container-2 h1{
+        column-span: all;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: auto;
+    }
+    
+    .price-card-container-2 h3{
+        column-span: all;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 200;
+        font-size: 21px;
+        margin: -15px 0px 50px 0px;
+        
+    }
+    
+    .price-box{
+        background-color: white;
+        border: 1px solid gray;
+        border-radius: 5px;
+        text-align: left;
+        height: 512px;
+        padding: 30px 40px 0px 40px;
+        margin-bottom: 50px;
+    }
+
+    .price-box:last-child{
+        margin-bottom: 0px;
+    }
+    
+    .price-box h4{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 5px;
+    }
+    
+    .price-box h5{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    
+    .bi-star-fill{
+        color: orange;
+        font-size: 14px;
+    }
+    
+    
+    
+    .span-available{
+        list-style-type: none;
+        
+    }
+    
+    .span-unavailable{
+        list-style-type:none;
+        color: gray;
+        
+    }
+    
+    .bi-check{
+        color: #0d6efd;
+    }
+    .bi-x{
+        color: gray;
+    }
+    
+    .span-available li{
+        
+        line-height: 1.7;
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .span-unavailable li{
+        line-height: 1.7;
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    #highlight-item{
+        font-weight: bolder;
+    }
+    
+    #price-opacity{
+        color: gray;
+        font-size: 14px;
+    }
+    
+    #money{
+        font-size: 35px;
+        margin-top: -40px;
+        display: inline-block;
+    }
+    
+    #month{
+        display: inline-block;
+        color: gray;
+        font-size: 17px;
+    }
+    
+    .price-button{
+        width: 95%;
+        margin-top: 20px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #0d6efd;
+        background-color: transparent;
+        color: #0d6efd;
+        font-size: 16px;
+    }
+    
+    .price-button:hover{
+        background-color: #0d6efd;
+        color: white;
+    }
+    
+    .price-button2{
+    
+        width: 95%;
+        margin-top: 20px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #0d6efd;
+        color: white;
+        background-color: #0d6efd;
+        font-size: 16px;
+    
+    }
+    
+    .price-button2:hover{
+        background-color: #0a58ca;
+    }
+    
+    
+    /*CUSTOMER REVIEWS*/
+    
+    .customer-review-container{
+        
+        width: 100%;
+       
+    }
+    
+    .customer-review-container-2{
+         
+         margin: auto;
+        
+         padding: 65px 0px 60px 0px;
+         
+         width:65%;
+        
+         
+         
+         
+    }
+    
+    .customer-review-container-2 h1{
+        column-span: all;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 26px;
+        
+    }
+    
+    .customer-review-container-2 h3{
+        column-span: all;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 200;
+        font-size: 21px;
+        margin: -15px 0px 50px 0px;
+        
+    }
+    
+    .review-box{
+        margin: auto;
+        width: 93%;
+        border: 1px solid grey;
+        border-radius: 5px;
+        height: fit-content;
+        margin-bottom: 25px;
+        
+    }
+
+    .review-box:last-child{
+     width: 89%;  
+     padding: 0px 6px;
+    }
+    
+    .chat-icon{
+      margin: 35px 0px 0px 30px;
+      width: fit-content;
+      
+    }
+    
+    
+    .customer-text{
+        width: 65%;
+       
+        margin: -65px 0px 0px 75px;
+     
+    }
+    
+    .customer-text p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: light;
+        font-size: 16px;
+    }
+    
+    #client{
+      margin-top: -8px;
+      font-size: 14px;
+      color: gray;
+    }
+    
+    .bi-chat-right-quote-fill{
+        background-color: transparent;
+        color: #0d6efd;
+        font-size: 30px;
+        margin-left: -10px;
+        
+    }
+    
+    /* GET IN TOUCH */
+    
+    .Contact-container{
+        background-color:#f8f9fa ;
+        width: 100%;
+        
+    }
+    
+    .Contact-container-2{
+         
+         margin: auto;
+        
+         padding: 65px 0px 60px 0px;
+        
+         width: 85%;
+         
+        
+         
+         
+         
+         
+    }
+    
+    .Contact-container-2 h1{
+        column-span: all;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 15px;
+        
+        
+    }
+    
+    .Contact-container-2 h3{
+        column-span: all;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 200;
+        font-size: 21px;
+        margin: -15px 0px 50px 0px;
+        
+        
+    }
+    
+    .envelope-div{
+      width: max-content;
+      margin: auto;
+      
+    
+    }
+    
+    .envelope-button{
+        background-color: #0d6efd;
+        border-radius: 5px;
+        border-style: none;
+        width: 65px;
+        height: 65px;
+       
+      
+      
+    }
+    
+    .bi-envelope{
+        color: white;
+        font-size: 35px;
+    }
+    
+    
+    .input-fields{
+        width: 90%;
+        
+        border-radius: 5px;
+        height: 50px;
+        
+        border: 1px solid gray;
+        margin:0px 0px 15px 20px;
+    }
+    
+    .textarea-field{
+        width: 90%;
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin:0px 0px 15px 20px;
+    }
+    
+    input:focus::placeholder{
+    
+        font-size: 12px;
+        color: gray;
+        top: 20px;
+        transform: translate(20px);
+       
+    
+    }
+    
+    .input-button{
+        width: 92%;
+        background-color: #0d6efd;
+        color: white;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 20px;
+        opacity: 0.6;
+        margin:0px 0px 15px 20px;
+    }
+    
+    /*FOOTER*/
+    
+    
+    .foot{
+        width: 100%;
+        background-color: #212832;
+        height: 120px;
+        text-align: center;   
+    }
+    
+    .foot h4{
+        color: white;
+        padding: 60px 0px 10px 0px;
+    }
+    
+}
+
+
+/* PHONE M */
+
+
+@media screen and (max-width:400px) {
+
+    body{
+        margin: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        
+       
+    }
+    
+     
+    .navbar1{
+        background-color: black;
+        overflow: hidden;
+        position: relative;
+       
+    }
+    
+    .navtext{
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: max-content;
+        
+        font-size: 22px;
+        margin: 15px 0px 0px 50px;
+        padding-left: 0px;
+    }
+    .navclass{
+        width: 10px;
+       float: none;
+       
+       margin: 10px 0px 0px 50px;    
+      
+        
+    }
+    
+    
+    
+    
+    
+    span a{
+        text-decoration: none;
+        color: gray;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-right: 15px;
+    }
+    
+    span a:active{
+        color: white;
+    }
+
+    
+    
+    
+    /* MAIN BODY */
+    
+    .heading-container{
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        position: relative;
+        
+        
+    }
+    
+    .heading-text-container{
+       
+        width: 65%;
+        text-align: center;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        color: white;
+      
+      
+       
+    }
+    
+    .heading-text-container h1{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         padding: 0px 20px 0px 20px;
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    
+    .heading-text-container h4{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        width: 97%;
+        margin:auto;
+        margin-top: -10px;
+        color: grey;
+    }
+    
+    .heading-button-container{
+        
+        width: 50%;
+        
+        top: 75%;
+        left: 48%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        color: white;
+        
+    }
+    
+    .button1{
+        background-color: #0d6efd;
+        width: 200px;
+        height: 50px;
+        border-radius: 7px;
+        font-size: 18px;
+        border-style: none;
+        margin: 10px 0px 18px 0px;
+        
+    }
+    
+    .button1:hover{
+        background-color: #0a58ca;
+    }
+    
+    .button1 a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .button2{
+        background-color: transparent;
+        width: 200px;
+        height: 50px;
+        border-radius: 7px;
+        font-size: 18px;
+        border: 1px solid white;
+    }
+    
+    .button2:hover{
+        background-color: white;
+        
+    }
+    
+    .button2 a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .button2 a:hover{
+        color: black;
+    }
+    
+    /*CARD*/
+    
+    .card-container{
+        width: 100%;
+      
+    }
+    
+    .card-container-2{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        margin: auto;
+        width: 85%;
+        column-count: 1;
+        text-align: left;
+       
+    }
+    
+    .icon-button{
+        background-color: #0d6efd;
+        border-radius: 5px;
+        border-style: none;
+        width: 65px;
+        height: 65px;
+        text-align: center;
+      
+    }
+    
+    
+    
+    .bi-collection{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .bi-building{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .bi-toggles2{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .icon-class{
+      margin-bottom: 60px;
+      
+      width: 73%;
+    }
+
+    .icon-class:last-child{
+        margin-bottom: 0px;
+    }
+
+    .icon-class h2{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 13px;
+    }
+    
+    .icon-class p{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: -13px;
+    }
+    
+    .icon-class a{
+        text-decoration: none;
+        font-size: 16px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #0d6efd;
+    }
+    
+    .icon-class a:hover{
+    
+        color: #0a58ca;
+        
+    }
+    
+    /*PRICE CONTAINER*/
+    
+    
+    .price-card-container{
+        background-color:#f8f9fa ;
+        width: 100%;
+        border: 1px solid gainsboro;
+    }
+    
+    .price-card-container-2{
+         
+         margin: auto;
+         column-count: 1;
+         padding: 65px 0px 100px 0px;
+         
+         width: 60%;
+         
+         
+         
+         
+    }
+    
+    .price-card-container-2 h1{
+        column-span: all;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: auto;
+    }
+    
+    .price-card-container-2 h3{
+        column-span: all;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 200;
+        font-size: 21px;
+        margin: -15px 0px 50px 0px;
+        
+    }
+    
+    .price-box{
+        background-color: white;
+        border: 1px solid gray;
+        border-radius: 5px;
+        text-align: left;
+        height: 562px;
+        padding: 30px 40px 0px 40px;
+        margin-bottom: 50px;
+    }
+
+    .price-box:last-child{
+        margin-bottom: 0px;
+        height: 582px;
+    }
+    
+    .price-box h4{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 5px;
+    }
+    
+    .price-box h5{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    
+    .bi-star-fill{
+        color: orange;
+        font-size: 14px;
+    }
+    
+    
+    
+    .span-available{
+        list-style-type: none;
+        
+    }
+    
+    .span-unavailable{
+        list-style-type:none;
+        color: gray;
+        
+    }
+    
+    .bi-check{
+        color: #0d6efd;
+    }
+    .bi-x{
+        color: gray;
+    }
+    
+    .span-available li{
+        
+        line-height: 1.7;
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .span-unavailable li{
+        line-height: 1.7;
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    #highlight-item{
+        font-weight: bolder;
+    }
+    
+    #price-opacity{
+        color: gray;
+        font-size: 14px;
+    }
+    
+    #money{
+        font-size: 35px;
+        margin-top: -40px;
+        display: inline-block;
+    }
+    
+    #month{
+        display: inline-block;
+        color: gray;
+        font-size: 17px;
+    }
+    
+    .price-button{
+        width: 95%;
+        margin-top: 20px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #0d6efd;
+        background-color: transparent;
+        color: #0d6efd;
+        font-size: 16px;
+    }
+    
+    .price-button:hover{
+        background-color: #0d6efd;
+        color: white;
+    }
+    
+    .price-button2{
+    
+        width: 95%;
+        margin-top: 20px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #0d6efd;
+        color: white;
+        background-color: #0d6efd;
+        font-size: 16px;
+    
+    }
+    
+    .price-button2:hover{
+        background-color: #0a58ca;
+    }
+    
+    
+    /*CUSTOMER REVIEWS*/
+    
+    .customer-review-container{
+        
+        width: 100%;
+       
+    }
+    
+    .customer-review-container-2{
+         
+         margin: auto;
+        
+         padding: 65px 0px 60px 0px;
+         
+         width:65%;
+        
+         
+         
+         
+    }
+    
+    .customer-review-container-2 h1{
+        column-span: all;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 26px;
+        
+    }
+    
+    .customer-review-container-2 h3{
+        column-span: all;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 200;
+        font-size: 21px;
+        margin: -15px 0px 50px 0px;
+        
+    }
+    
+    .review-box{
+        margin: auto;
+        width: 93%;
+        border: 1px solid grey;
+        border-radius: 5px;
+        height: fit-content;
+        margin-bottom: 25px;
+        
+    }
+
+    .review-box:last-child{
+     width: 89%;  
+     padding: 0px 6px;
+    }
+    
+    .chat-icon{
+      margin: 35px 0px 0px 30px;
+      width: fit-content;
+      
+    }
+    
+    
+    .customer-text{
+        width: 65%;
+       
+        margin: -65px 0px 0px 75px;
+     
+    }
+    
+    .customer-text p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: light;
+        font-size: 16px;
+    }
+    
+    #client{
+      margin-top: -8px;
+      font-size: 14px;
+      color: gray;
+    }
+    
+    .bi-chat-right-quote-fill{
+        background-color: transparent;
+        color: #0d6efd;
+        font-size: 30px;
+        margin-left: -10px;
+        
+    }
+    
+    /* GET IN TOUCH */
+    
+    .Contact-container{
+        background-color:#f8f9fa ;
+        width: 100%;
+        
+    }
+    
+    .Contact-container-2{
+         
+         margin: auto;
+        
+         padding: 65px 0px 60px 0px;
+        
+         width: 85%;
+         
+        
+         
+         
+         
+         
+    }
+    
+    .Contact-container-2 h1{
+        column-span: all;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 15px;
+        
+        
+    }
+    
+    .Contact-container-2 h3{
+        column-span: all;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 200;
+        font-size: 21px;
+        margin: -15px 0px 50px 0px;
+        
+        
+    }
+    
+    .envelope-div{
+      width: max-content;
+      margin: auto;
+      
+    
+    }
+    
+    .envelope-button{
+        background-color: #0d6efd;
+        border-radius: 5px;
+        border-style: none;
+        width: 65px;
+        height: 65px;
+       
+      
+      
+    }
+    
+    .bi-envelope{
+        color: white;
+        font-size: 35px;
+    }
+    
+    
+    .input-fields{
+        width: 90%;
+        
+        border-radius: 5px;
+        height: 50px;
+        
+        border: 1px solid gray;
+        margin:0px 0px 15px 20px;
+    }
+    
+    .textarea-field{
+        width: 90%;
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin:0px 0px 15px 20px;
+    }
+    
+    input:focus::placeholder{
+    
+        font-size: 12px;
+        color: gray;
+        top: 20px;
+        transform: translate(20px);
+       
+    
+    }
+    
+    .input-button{
+        width: 92%;
+        background-color: #0d6efd;
+        color: white;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 20px;
+        opacity: 0.6;
+        margin:0px 0px 15px 20px;
+    }
+    
+    /*FOOTER*/
+    
+    
+    .foot{
+        width: 100%;
+        background-color: #212832;
+        height: 120px;
+        text-align: center;   
+    }
+    
+    .foot h4{
+        color: white;
+        padding: 60px 0px 10px 0px;
+    }
+    
+}
+
+/* PHONE S */
+
+
+@media screen and (max-width:350px) {
+
+    body{
+        margin: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        
+       
+    }
+    
+        
+    .navbar1{
+        background-color: black;
+        overflow: hidden;
+        position: relative;
+       
+    }
+    
+    .navtext{
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: max-content;
+        
+        font-size: 22px;
+        margin: 15px 0px 0px 50px;
+        padding-left: 0px;
+    }
+    .navclass{
+        width: 10px;
+       float: none;
+       
+       margin: 10px 0px 0px 50px;    
+    }
+
+   
+    
+    
+    
+    span a{
+        text-decoration: none;
+        color: gray;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-right: 15px;
+    }
+    
+    span a:active{
+        color: white;
+    }
+
+    
+    
+    
+    /* MAIN BODY */
+    
+    .heading-container{
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        position: relative;
+        
+        
+    }
+    
+    .heading-text-container{
+       
+        width: 65%;
+        text-align: center;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        color: white;
+      
+      
+       
+    }
+    
+    .heading-text-container h1{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         padding: 0px 20px 0px 20px;
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    
+    .heading-text-container h4{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        width: 97%;
+        margin:auto;
+        margin-top: -10px;
+        color: grey;
+    }
+    
+    .heading-button-container{
+        
+        width: 50%;
+        
+        top: 78%;
+        left: 43%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        color: white;
+        
+    }
+    
+    .button1{
+        background-color: #0d6efd;
+        width: 200px;
+        height: 50px;
+        border-radius: 7px;
+        font-size: 18px;
+        border-style: none;
+        margin: 10px 0px 18px 0px;
+        
+    }
+    
+    .button1:hover{
+        background-color: #0a58ca;
+    }
+    
+    .button1 a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .button2{
+        background-color: transparent;
+        width: 200px;
+        height: 50px;
+        border-radius: 7px;
+        font-size: 18px;
+        border: 1px solid white;
+    }
+    
+    .button2:hover{
+        background-color: white;
+        
+    }
+    
+    .button2 a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .button2 a:hover{
+        color: black;
+    }
+    
+    /*CARD*/
+    
+    .card-container{
+        width: 100%;
+      
+    }
+    
+    .card-container-2{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        margin: auto;
+        width: 85%;
+        column-count: 1;
+        text-align: left;
+       
+    }
+    
+    .icon-button{
+        background-color: #0d6efd;
+        border-radius: 5px;
+        border-style: none;
+        width: 65px;
+        height: 65px;
+        text-align: center;
+      
+    }
+    
+    
+    
+    .bi-collection{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .bi-building{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .bi-toggles2{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .icon-class{
+      margin-bottom: 60px;
+      
+      width: 73%;
+    }
+
+    .icon-class:last-child{
+        margin-bottom: 0px;
+    }
+
+    .icon-class h2{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 13px;
+    }
+    
+    .icon-class p{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: -13px;
+    }
+    
+    .icon-class a{
+        text-decoration: none;
+        font-size: 16px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #0d6efd;
+    }
+    
+    .icon-class a:hover{
+    
+        color: #0a58ca;
+        
+    }
+    
+    /*PRICE CONTAINER*/
+    
+    
+    .price-card-container{
+        background-color:#f8f9fa ;
+        width: 100%;
+        border: 1px solid gainsboro;
+    }
+    
+    .price-card-container-2{
+         
+         margin: auto;
+         column-count: 1;
+         padding: 65px 0px 100px 0px;
+         
+         width: 60%;
+         
+         
+         
+         
+    }
+    
+    .price-card-container-2 h1{
+        column-span: all;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: auto;
+    }
+    
+    .price-card-container-2 h3{
+        column-span: all;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 200;
+        font-size: 21px;
+        margin: -15px 0px 50px 0px;
+        
+    }
+    
+    .price-box{
+        background-color: white;
+        border: 1px solid gray;
+        border-radius: 5px;
+        text-align: left;
+        height: 562px;
+        padding: 30px 40px 0px 40px;
+        margin-bottom: 50px;
+    }
+
+    .price-box:last-child{
+        margin-bottom: 0px;
+        height: 582px;
+    }
+    
+    .price-box h4{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 5px;
+    }
+    
+    .price-box h5{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    
+    .bi-star-fill{
+        color: orange;
+        font-size: 14px;
+    }
+    
+    
+    
+    .span-available{
+        list-style-type: none;
+        
+    }
+    
+    .span-unavailable{
+        list-style-type:none;
+        color: gray;
+        
+    }
+    
+    .bi-check{
+        color: #0d6efd;
+    }
+    .bi-x{
+        color: gray;
+    }
+    
+    .span-available li{
+        
+        line-height: 1.7;
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .span-unavailable li{
+        line-height: 1.7;
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    #highlight-item{
+        font-weight: bolder;
+    }
+    
+    #price-opacity{
+        color: gray;
+        font-size: 14px;
+    }
+    
+    #money{
+        font-size: 35px;
+        margin-top: -40px;
+        display: inline-block;
+    }
+    
+    #month{
+        display: inline-block;
+        color: gray;
+        font-size: 17px;
+    }
+    
+    .price-button{
+        width: 95%;
+        margin-top: 20px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #0d6efd;
+        background-color: transparent;
+        color: #0d6efd;
+        font-size: 16px;
+    }
+    
+    .price-button:hover{
+        background-color: #0d6efd;
+        color: white;
+    }
+    
+    .price-button2{
+    
+        width: 95%;
+        margin-top: 20px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #0d6efd;
+        color: white;
+        background-color: #0d6efd;
+        font-size: 16px;
+    
+    }
+    
+    .price-button2:hover{
+        background-color: #0a58ca;
+    }
+    
+    
+    /*CUSTOMER REVIEWS*/
+    
+    .customer-review-container{
+        
+        width: 100%;
+       
+    }
+    
+    .customer-review-container-2{
+         
+         margin: auto;
+        
+         padding: 65px 0px 60px 0px;
+         
+         width:65%;
+        
+         
+         
+         
+    }
+    
+    .customer-review-container-2 h1{
+        column-span: all;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 26px;
+        
+    }
+    
+    .customer-review-container-2 h3{
+        column-span: all;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 200;
+        font-size: 21px;
+        margin: -15px 0px 50px 0px;
+        
+    }
+    
+    .review-box{
+        margin: auto;
+        width: 93%;
+        border: 1px solid grey;
+        border-radius: 5px;
+        height: fit-content;
+        margin-bottom: 25px;
+        
+    }
+
+    .review-box:last-child{
+     width: 89%;  
+     padding: 0px 6px;
+    }
+    
+    .chat-icon{
+      margin: 35px 0px 0px 30px;
+      width: fit-content;
+      
+    }
+    
+    
+    .customer-text{
+        width: 65%;
+       
+        margin: -65px 0px 0px 75px;
+     
+    }
+    
+    .customer-text p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: light;
+        font-size: 16px;
+    }
+    
+    #client{
+      margin-top: -8px;
+      font-size: 14px;
+      color: gray;
+    }
+    
+    .bi-chat-right-quote-fill{
+        background-color: transparent;
+        color: #0d6efd;
+        font-size: 30px;
+        margin-left: -10px;
+        
+    }
+    
+    /* GET IN TOUCH */
+    
+    .Contact-container{
+        background-color:#f8f9fa ;
+        width: 100%;
+        
+    }
+    
+    .Contact-container-2{
+         
+         margin: auto;
+        
+         padding: 65px 0px 60px 0px;
+        
+         width: 85%;
+         
+        
+         
+         
+         
+         
+    }
+    
+    .Contact-container-2 h1{
+        column-span: all;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 15px;
+        
+        
+    }
+    
+    .Contact-container-2 h3{
+        column-span: all;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 200;
+        font-size: 21px;
+        margin: -15px 0px 50px 0px;
+        
+        
+    }
+    
+    .envelope-div{
+      width: max-content;
+      margin: auto;
+      
+    
+    }
+    
+    .envelope-button{
+        background-color: #0d6efd;
+        border-radius: 5px;
+        border-style: none;
+        width: 65px;
+        height: 65px;
+       
+      
+      
+    }
+    
+    .bi-envelope{
+        color: white;
+        font-size: 35px;
+    }
+    
+    
+    .input-fields{
+        width: 90%;
+        
+        border-radius: 5px;
+        height: 50px;
+        
+        border: 1px solid gray;
+        margin:0px 0px 15px 20px;
+    }
+    
+    .textarea-field{
+        width: 90%;
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin:0px 0px 15px 20px;
+    }
+    
+    input:focus::placeholder{
+    
+        font-size: 12px;
+        color: gray;
+        top: 20px;
+        transform: translate(20px);
+       
+    
+    }
+    
+    .input-button{
+        width: 92%;
+        background-color: #0d6efd;
+        color: white;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 20px;
+        opacity: 0.6;
+        margin:0px 0px 15px 20px;
+    }
+    
+    /*FOOTER*/
+    
+    
+    .foot{
+        width: 100%;
+        background-color: #212832;
+        height: 120px;
+        text-align: center;   
+    }
+    
+    .foot h4{
+        color: white;
+        padding: 60px 0px 10px 0px;
+    }
+    
 }

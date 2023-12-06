@@ -17,14 +17,22 @@
             
          <div class="navclass">
           
-          <span><a href="#about">About</a></span>
-          <span ><a href="#services"  >Services</a></span>
-          <span><a href="#contact">Contact</a></span>
+         <div class="nav-link">
+
+            <span><a href="#about">About</a></span>
+            <span ><a href="#services"  >Services</a></span>
+            <span><a href="#contact">Contact</a></span>
+
+         </div>
           
           
          </div>
     
-           
+         <div class="menu-icon" onclick="toggleMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
         </nav>
        </header>
 
@@ -93,5 +101,23 @@
     <h4 style="font-family: sans-serif;">Copyright &copy; Your website 2023</h4> 
  </footer>
     
+
+ 
+ <script>
+    function toggleMenu(){
+
+       const hamburger=document.querySelector(".nav-link");
+
+        if(hamburger.style.display === "none"){
+
+            hamburger.style.display = "block";
+        }
+
+        else{
+
+            hamburger.style.display = "none"
+        }
+    }
+</script>
 </body>
 </html>

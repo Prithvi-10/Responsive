@@ -16,14 +16,23 @@
            
             
          <div class="navclass">
-          <span ><a href="#"  >Home</a></span>
-          <span><a href="#">About</a></span>
-          <span><a href="#">Contact</a></span>
-          <span><a href="#" id="blog">Blog</a></span>
+           
+            <div class="nav-link">
+                <span ><a href="#"  >Home</a></span>
+                <span><a href="#">About</a></span>
+                <span><a href="#">Contact</a></span>
+                <span><a href="#" id="blog">Blog</a></span>
+
+            </div>
           
          </div>
     
            
+         <div class="menu-icon" onclick="toggleMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
         </nav>
        </header>
 
@@ -59,7 +68,7 @@
                
 
             </div>
-
+        
             <!-- SEARCH CARD -->
 
             <div class="search-card">
@@ -137,7 +146,7 @@
                        
                        <h1> Post Title</h1>
                        
-                       <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? </h3>
+                       <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</h3>
                         
                         <button>Read More &#8594;</button>
                     </div>
@@ -155,7 +164,7 @@
                        
                        <h1> Post Title</h1>
                        
-                       <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? </h3>
+                       <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</h3>
                         
                         <button>Read More &#8594;</button>
                     </div>
@@ -173,7 +182,7 @@
                        
                        <h1> Post Title</h1>
                        
-                       <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? </h3>
+                       <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla. </h3>
                         
                         <button>Read More &#8594;</button>
                     </div>
@@ -231,5 +240,23 @@
             <h4 >Copyright &copy; Your website 2023</h4> 
         </div>
     </footer>
+
+    
+ <script>
+    function toggleMenu(){
+
+       const hamburger=document.querySelector(".nav-link");
+
+        if(hamburger.style.display === "none"){
+
+            hamburger.style.display = "block";
+        }
+
+        else{
+
+            hamburger.style.display = "none"
+        }
+    }
+</script>
 </body>
 </html>

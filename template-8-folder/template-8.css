@@ -41,6 +41,28 @@ span a:active{
     color: white;
 }
 
+#home{
+    color: white;
+}
+
+.menu-icon {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding: 6px;
+    
+  }
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: gray;
+    margin: 6px;}
+
+.menu-icon{display: none;}
+
 /*MAIN*/
 
 .container{
@@ -204,4 +226,779 @@ span a:active{
 .foot h4{
     color: white;
     padding: 60px 0px 10px 0px;
+}
+
+/* TABLET */
+
+@media screen and (max-width:770px) {
+  
+    body{
+        margin: 0;
+        box-sizing: border-box;
+        
+       
+    }
+    
+    .navbar-top{
+        background-color: black;
+        overflow: hidden;
+        position: relative;
+       
+    }
+    
+    .navtext{
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: max-content;
+        
+        font-size: 22px;
+        margin: 15px 0px 0px 50px;
+        padding-left: 0px;
+    }
+    .navclass{
+        width: 10px;
+       float: none;
+       
+       margin: 10px 0px 0px 50px;    
+      
+        
+    }
+
+    .nav-link{
+        display: none;
+    }
+
+    .menu-icon{
+        display: inline-block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    
+    
+    
+    span a{
+        text-decoration: none;
+        color: gray;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-right: 15px;
+        line-height: 1.8;
+        font-size: 18px;
+    }
+    
+    span a:active{
+        color: white;
+    }
+    
+    /*MAIN*/
+    
+    .container{
+        width: 100%;
+        position: relative;
+        height: 62vh;
+        
+    }
+    
+    .container-2{
+        width: 92%;
+        text-align: center;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-55%);
+        position: absolute;
+        color: black;
+        background-color: #f8f9fa;
+        border-radius: 7px;
+        
+        height: 320px;
+        margin-top: 70px;
+       
+    }
+    
+    .container-2 h1{
+        font-size: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       margin-top: 45px;
+    }
+    
+    .container-2 h3{
+        font-weight: 400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 23px;
+        margin-top: -28px;
+    }
+    
+    .text-container{
+        width: 84%;
+        margin: auto;
+        
+    }
+    
+    .btn1{
+        background-color: #0d6efd;
+        color: white;
+        height: 48px;
+        width: 145px;
+        border-radius: 8px;
+        font-size: 20px;
+        margin-top: -10px;
+        border-style: none;
+        
+    }
+    
+    .btn1:hover{
+        background-color: #0a58ca;
+    }
+    
+    .btn1 a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    /*CARD*/
+    
+    .card-container{
+        width: 100%;
+        margin-top: 55px;
+    }
+    
+    
+    .card-container-2{
+        width: 100%;
+        margin: auto;
+        column-count: 1;
+        position: relative;
+        
+        height: 1330px;
+        text-align: center;
+    }
+    
+    .card-container-2 .icon-class:nth-child(2){
+      position: absolute;
+      top:672px;
+      left: 4.4%;
+      
+    }
+
+    .card-container-2 .icon-class:nth-child(4){
+        position: absolute;
+        top:900px;
+        left: 4.4%;
+        
+      }
+
+      .card-container-2 .icon-class:nth-child(6){
+        position: absolute;
+        top:1130px;
+        left: 4.4%;
+        
+      }
+
+    .icon-class{
+        background-color: #f8f9fa;
+        margin-bottom: 50px;
+        display:  inline-block;
+       width: 80%;
+       border-radius: 5px;
+      
+    }
+    
+  
+
+    .icon-button{
+        background-color: #0d6efd;
+        border-radius: 5px;
+        border-style: none;
+        width: 65px;
+        height: 65px;
+        text-align: center;
+        margin-top: -25px;
+    }
+    
+    
+    
+    
+    .bi-collection{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .bi-cloud-download{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .bi-card-heading{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .bi-bootstrap{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .bi-code{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .bi-patch-check{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .icon-class h2{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 22px;
+    }
+    
+    .icon-class p{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: -13px;
+    }
+    
+    /*FOOTER*/
+    
+    
+    .foot{
+        width: 100%;
+        background-color: #212529;
+        height: 120px;
+        text-align: center;   
+    }
+    
+    .foot h4{
+        color: white;
+        padding: 60px 0px 10px 0px;
+    }
+    
+}
+
+
+/* PHONE */
+
+
+@media screen and (max-width:600px) {
+  
+    body{
+        margin: 0;
+        box-sizing: border-box;
+        
+       
+    }
+    
+     
+    .navbar-top{
+        background-color: black;
+        overflow: hidden;
+        position: relative;
+       
+    }
+    
+    .navtext{
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: max-content;
+        
+        font-size: 22px;
+        margin: 15px 0px 0px 50px;
+        padding-left: 0px;
+    }
+    .navclass{
+        width: 10px;
+       float: none;
+       
+       margin: 10px 0px 0px 50px;    
+      
+        
+    }
+
+    .nav-link{
+        display: none;
+    }
+
+    .menu-icon{
+        display: inline-block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    
+    
+    span a{
+        text-decoration: none;
+        color: gray;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-right: 15px;
+    }
+    
+    span a:active{
+        color: white;
+    }
+
+    
+    
+    /*MAIN*/
+    
+    .container{
+        width: 100%;
+        position: relative;
+        height: 62vh;
+        
+    }
+    
+    .container-2{
+        width: 92%;
+        text-align: center;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-55%);
+        position: absolute;
+        color: black;
+        background-color: #f8f9fa;
+        
+        border-radius: 7px;
+       
+        height: 415px;
+        margin-top: 120px;
+       
+    }
+    
+    .container-2 h1{
+        font-size: 27px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       margin-top: 35px;
+       line-height: 1.1;
+       
+    }
+    
+    .container-2 h3{
+        font-weight: 400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        margin-top: -10px;
+    }
+    
+    .text-container{
+        width: 55%;
+        margin: auto;
+        
+    }
+    
+    .btn1{
+        background-color: #0d6efd;
+        color: white;
+        height: 48px;
+        width: 145px;
+        border-radius: 8px;
+        font-size: 20px;
+        margin-top: -10px;
+        border-style: none;
+        
+    }
+    
+    .btn1:hover{
+        background-color: #0a58ca;
+    }
+    
+    .btn1 a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    /*CARD*/
+    
+    .card-container{
+        width: 100%;
+        margin-top: 150px;
+    }
+    
+    
+    .card-container-2{
+        width: 93%;
+        margin: auto;
+        column-count: 1;
+        position: relative;
+       
+        height: 1460px;
+        text-align: center;
+    }
+    
+    .card-container-2 .icon-class:nth-child(2){
+      position: absolute;
+      top:738px;
+      left: 1px;
+      
+    }
+
+    .card-container-2 .icon-class:nth-child(4){
+        position: absolute;
+        top:990px;
+        left: 1px;
+        
+      }
+
+      .card-container-2 .icon-class:nth-child(6){
+        position: absolute;
+        top:1242px;
+        left: 1px;
+        
+      }
+
+    .icon-class{
+        background-color: #f8f9fa;
+        margin-bottom: 50px;
+        display:  inline-block;
+       width: 77%;
+       border-radius: 5px;
+      
+    }
+    
+  
+
+    .icon-button{
+        background-color: #0d6efd;
+        border-radius: 5px;
+        border-style: none;
+        width: 65px;
+        height: 65px;
+        text-align: center;
+        margin-top: -25px;
+    }
+    
+    
+    
+    
+    .bi-collection{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .bi-cloud-download{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .bi-card-heading{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .bi-bootstrap{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .bi-code{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .bi-patch-check{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .icon-class h2{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 22px;
+    }
+    
+    .icon-class p{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: -13px;
+    }
+    
+    /*FOOTER*/
+    
+    
+    .foot{
+        width: 100%;
+        background-color: #212529;
+        height: 120px;
+        text-align: center;   
+    }
+    
+    .foot h4{
+        color: white;
+        padding: 60px 0px 10px 0px;
+    }
+    
+}
+
+
+/* PHONE S */
+
+
+@media screen and (max-width:350px) {
+  
+    body{
+        margin: 0;
+        box-sizing: border-box;
+        
+       
+    }
+    
+     
+    .navbar-top{
+        background-color: black;
+        overflow: hidden;
+        position: relative;
+       
+    }
+    
+    .navtext{
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: max-content;
+        
+        font-size: 22px;
+        margin: 15px 0px 0px 50px;
+        padding-left: 0px;
+    }
+    .navclass{
+        width: 10px;
+       float: none;
+       
+       margin: 10px 0px 0px 50px;    
+      
+        
+    }
+
+    .nav-link{
+        display: none;
+    }
+
+    .menu-icon{
+        display: inline-block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    
+    
+    span a{
+        text-decoration: none;
+        color: gray;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-right: 15px;
+    }
+    
+    span a:active{
+        color: white;
+    }
+
+    
+    
+    /*MAIN*/
+    
+    .container{
+        width: 100%;
+        position: relative;
+        height: 62vh;
+        
+    }
+    
+    .container-2{
+        width: 92%;
+        text-align: center;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-55%);
+        position: absolute;
+        color: black;
+        background-color: #f8f9fa;
+        
+        border-radius: 7px;
+       
+        height: 415px;
+        margin-top: 120px;
+       
+    }
+    
+    .container-2 h1{
+        font-size: 24px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       margin-top: 35px;
+       line-height: 1.1;
+       
+    }
+    
+    .container-2 h3{
+        font-weight: 400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 17px;
+        margin-top: -10px;
+    }
+    
+    .text-container{
+        width: 55%;
+        margin: auto;
+        
+    }
+    
+    .btn1{
+        background-color: #0d6efd;
+        color: white;
+        height: 48px;
+        width: 145px;
+        border-radius: 8px;
+        font-size: 20px;
+        margin-top: -10px;
+        border-style: none;
+        
+    }
+    
+    .btn1:hover{
+        background-color: #0a58ca;
+    }
+    
+    .btn1 a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    /*CARD*/
+    
+    .card-container{
+        width: 100%;
+        margin-top: 150px;
+    }
+    
+    
+    .card-container-2{
+        width: 93%;
+        margin: auto;
+        column-count: 1;
+        position: relative;
+       
+        height: 1650px;
+        text-align: center;
+    }
+    
+    .card-container-2 .icon-class:nth-child(2){
+      position: absolute;
+      top:838px;
+      left: 1px;
+      
+    }
+
+    .card-container-2 .icon-class:nth-child(4){
+        position: absolute;
+        top:1100px;
+        left: 1px;
+        
+      }
+
+      .card-container-2 .icon-class:nth-child(6){
+        position: absolute;
+        top:1392px;
+        left: 1px;
+        
+      }
+
+    .icon-class{
+        background-color: #f8f9fa;
+        margin-bottom: 50px;
+        display:  inline-block;
+       width: 67%;
+       border-radius: 5px;
+      
+    }
+    
+  
+
+    .icon-button{
+        background-color: #0d6efd;
+        border-radius: 5px;
+        border-style: none;
+        width: 65px;
+        height: 65px;
+        text-align: center;
+        margin-top: -25px;
+    }
+    
+    
+    
+    
+    .bi-collection{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .bi-cloud-download{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .bi-card-heading{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .bi-bootstrap{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .bi-code{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .bi-patch-check{
+        font-size: 35px;
+        
+        color: white;
+    }
+    
+    .icon-class h2{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 22px;
+    }
+    
+    .icon-class p{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: -13px;
+    }
+    
+    /*FOOTER*/
+    
+    
+    .foot{
+        width: 100%;
+        background-color: #212529;
+        height: 120px;
+        text-align: center;   
+    }
+    
+    .foot h4{
+        color: white;
+        padding: 60px 0px 10px 0px;
+    }
+    
 }
