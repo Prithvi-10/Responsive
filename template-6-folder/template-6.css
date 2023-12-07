@@ -615,7 +615,7 @@ span a{
     
     .container-2{
         width: 100%;
-        height: 4400px;
+        height: max-content;
         position: relative;
         
     }
@@ -941,9 +941,10 @@ span a{
     /* CONTAINER 4 */
     
     .container-4{
-        width: 100;
+        width: 80%;
         height: 40px;
-       margin-top: -1660px;
+       margin-top: -33%;
+       position: absolute;
         
     
     }
@@ -1007,13 +1008,14 @@ span a{
         background-color: #212529;
         height: 120px;
         text-align: center;   
-        margin-top: 470px;
+        position: absolute;
+        margin-top: 45%;
         
     }
     
     .foot h4{
         color: white;
-        padding: 60px 0px 10px 0px;
+        padding: 40px 0px 10px 0px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: 400;
     }
@@ -1124,7 +1126,7 @@ span a{
     
     .container-2{
         width: 100%;
-        height: 4400px;
+        height: max-content;
         position: relative;
         
     }
@@ -1453,9 +1455,11 @@ span a{
     /* CONTAINER 4 */
     
     .container-4{
-        width: 100;
+        width: 100%;
         height: 40px;
-       margin-top: -2290px;
+       margin: -170px auto 0px auto;
+       
+       
         
     
     }
@@ -1464,7 +1468,7 @@ span a{
         width: max-content;
         margin: 65px 0px 0px 20px ;
        
-        margin:70px auto;
+        margin:0px auto;
         
     }
     
@@ -1521,7 +1525,7 @@ span a{
         background-color: #212529;
         height: 120px;
         text-align: center;   
-        margin-top: 565px;
+        margin-top: 445px;
         
     }
     
@@ -1640,7 +1644,7 @@ span a{
     
     .container-2{
         width: 100%;
-        height: 4400px;
+        height: max-content;
         position: relative;
         
     }
@@ -1969,9 +1973,9 @@ span a{
     /* CONTAINER 4 */
     
     .container-4{
-        width: 100;
+        width: 100%;
         height: 40px;
-       margin-top: -2290px;
+       margin-top: -230px;
         
     
     }
@@ -2035,7 +2039,7 @@ span a{
         background-color: #212529;
         height: 120px;
         text-align: center;   
-        margin-top: 565px;
+        margin-top: 455px;
         
     }
     
@@ -2159,7 +2163,7 @@ span a{
     
     .container-2{
         width: 100%;
-        height: 4400px;
+        height: max-content;
         position: relative;
         
     }
@@ -2490,7 +2494,7 @@ span a{
     .container-4{
         width: 100;
         height: 40px;
-       margin-top: -2370px;
+       margin-top: -240px;
         
     
     }
@@ -2556,7 +2560,7 @@ span a{
         background-color: #212529;
         height: 120px;
         text-align: center;   
-        margin-top: 565px;
+        margin-top: 465px;
         
     }
     
